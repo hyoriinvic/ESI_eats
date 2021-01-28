@@ -36,24 +36,17 @@ article {
     background-color:#fec8c9;
     height: 70px;
     color: #444f59;
+    transition: background 0.8s;
 }
 
-.btn-start{
+.btn:hover {
+    background:#fec8c9 radial-gradient(circle, transparent 1%, #fec8c9 1%) center/15000%;
+}
+
+.btn:active {
     background-color:#fec8c9;
-}
-.btn-start:focus, .btn-start:hover  {
-    -webkit-tap-highlight-color: transparent;
-    background-color:#fd999a !important;
-}
-
-/* 문제 화면 */
-.btn-answer{
-    background-color:#fec8c9;
-}
-
-.btn-answer:hover, .btn-answer:focus  {
-    -webkit-tap-highlight-color: transparent;
-    background-color: #fd999a !important;
+    background-size: 100%;
+    transition: background 0s;
 }
 
 .result {
