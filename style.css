@@ -27,6 +27,10 @@ article {
     display: none;
 }
 
+#title{
+    font-weight: bolder;
+}
+
 .btn {
     background-color: #fec8c9;
 }
