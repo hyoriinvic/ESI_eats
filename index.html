@@ -310,7 +310,7 @@
                 $("#shleyz-description").html(result[mbti]["shleyz-description"]);
                 $("#mbti-type").html(result[mbti]["mbti-type"]);
                 $("#mbti-explain").html(result[mbti]["mbti-explain"]);
-                $("#result-img").attr("src", result[mbti]["result-image"]);
+                $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
             } else {
                 // progress bar 채우기
                 $(".progress-bar").attr("style", "width:calc(100/12*"+num+"%)");
