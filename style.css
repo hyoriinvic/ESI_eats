@@ -34,6 +34,7 @@ article {
 
 .btn {
     background-color: #fec8c9;
+    height: 70px;
 }
 
 .btn-start, .btn-start:visited, .btn-start:hover, .btn-start:active {
