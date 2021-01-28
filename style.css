@@ -49,14 +49,12 @@ article {
     background-color:#fec8c9;
     color: #52616a;
     width: 288px;
-    margin: 0 auto;
 }
 
 .btn-answer:hover {
     background-color: #fd999a !important;
     color: #52616a;
     width: 288px;
-    margin: 0 auto;
 }
 
 .result {
