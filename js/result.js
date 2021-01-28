@@ -5,7 +5,7 @@ var result = {
         "shleyz-type" : "관리감독 베리빗",
         "mbti-type" : "ESTJ",
         "mbti-explain" : "설명 필요",
-        "result-image" : "image/ES.png"x // 각 유형별 이미지
+        "result-image" : "image/ES.png" // 각 유형별 이미지
     },
     "ESTP" : {
         "shleyz-description" : "그래도 놀 땐 확실하게 놀아야지!",
