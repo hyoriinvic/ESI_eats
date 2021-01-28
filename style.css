@@ -41,7 +41,7 @@ article {
     background-color:#fec8c9;
 }
 
-.btn-start:focus, .btn-start:hover  {
+.btn-start:focus {
     background-color:#fd999a !important;
 }
 
@@ -50,7 +50,7 @@ article {
     background-color:#fec8c9;
 }
 
-.btn-answer:hover, .btn-answer:focus {
+.btn-answer:focus {
     background-color: #fd999a !important;
 }
 
