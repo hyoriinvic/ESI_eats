@@ -20,11 +20,11 @@ article {
 
 /* 문제 화면 */
 .btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
-    background-color: #fffcf0;
+    background-color:#fec9c9;
 }
 
 .btn-answer:hover {
-    background-color:#fec9c9 !important;
+    background-color:#fe4365 !important;
 }
 
 .result {
