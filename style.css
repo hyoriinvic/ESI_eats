@@ -9,6 +9,7 @@
 
 body {
     font-family: 'ELAND_Choice_M';
+    color: #3e4149;
     word-break: keep-all;
 }
 
@@ -34,20 +35,13 @@ article {
 .btn {
     background-color:#fec8c9;
     height: 70px;
-    color:#fd999a;
-    transition: all 0.9s, color 0.3;
+    color: #444f59;
+    transition: background 0.8s;
 }
 
-.btn:hover {
-    box-shadow: 0 80px 0 0 rgba(0,0,0,0.25) inset, 
-                0 -80px 0 0 rgba(0,0,0,0.25) inset;
+.btn:hover, .btn:active {
+    background:#fec8c9;
 }
-
-/* .btn:active {
-    background-color:#fec8c9;
-    background-size: 100%;
-    transition: background 0s;
-} */
 
 .result {
     display: none;
