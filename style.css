@@ -6,6 +6,14 @@ article {
     flex-direction: column;
 }
 
+.progress-bar {
+    background-color:#fe4365;
+}
+
+.progress {
+    background-color: #e3dede;
+}
+
 .question {
     display: none;
 }
