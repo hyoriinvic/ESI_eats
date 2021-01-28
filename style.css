@@ -33,6 +33,7 @@ article {
 }
 
 .btn {
+    background-color:#fec8c9;
     height: 70px;
     color: #444f59;
 }
@@ -40,17 +41,18 @@ article {
 .btn-start{
     background-color:#fec8c9;
 }
-
-.btn-start:focus {
+.btn-start:focus, .btn-start:hover  {
+    -webkit-tap-highlight-color: transparent;
     background-color:#fd999a !important;
 }
 
 /* 문제 화면 */
-.btn-answer {
+.btn-answer{
     background-color:#fec8c9;
 }
 
-.btn-answer:focus {
+.btn-answer:hover, .btn-answer:focus  {
+    -webkit-tap-highlight-color: transparent;
     background-color: #fd999a !important;
 }
 
