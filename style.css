@@ -20,6 +20,12 @@ article {
     flex-direction: column;
 }
 
+.copyright-text {
+    font-family: 'ELAND_Choice_M';
+    font-size: 12px;
+    color: #7c7c7c;
+}
+
 .progress-bar {
     background-color:#fc9d9a;
 }
