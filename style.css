@@ -18,6 +18,15 @@ article {
     background-color: #fec9c9;
 }
 
+/* 문제 화면 */
+.btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
+    background-color: #fffcf0;
+}
+
+.btn-answer:hover {
+    background-color:#fec9c9 !important;
+}
+
 .result {
     display: none;
 }
