@@ -45,10 +45,10 @@ article {
 .btn-start:active, .btn-start:focus {
     background-color:#fd999a !important;
     color: #444f59;
-}
+} */
 
 /* 문제 화면 */
-.btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
+/* .btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
     background-color:#fec8c9;
     color:#444f59;
 }
