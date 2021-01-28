@@ -15,16 +15,23 @@ article {
 }
 
 .btn {
-    background-color: #fec9c9;
+    background-color: #fec8c9;
+}
+
+.btn-start, .btn-start:visited, .btn-start:hover, .btn-start:active {
+    background-color:#fec8c9;
+}
+.btn-start:active, .btn-start:focus {
+    background-color:#fd999a !important;
 }
 
 /* 문제 화면 */
 .btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
-    background-color:#fec9c9;
+    background-color:#fec8c9;
 }
 
 .btn-answer:hover {
-    background-color:#fe4365 !important;
+    background-color: #fd999a !important;
 }
 
 .result {
