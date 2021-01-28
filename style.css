@@ -33,11 +33,12 @@ article {
 }
 
 .btn {
-    background-color: #fec8c9;
+    background-color: #fd999a;
     height: 70px;
+    color: #444f59;
 }
 
-.btn-start, .btn-start:visited, .btn-start:hover, .btn-start:active {
+/* .btn-start, .btn-start:visited, .btn-start:hover, .btn-start:active {
     background-color:#fec8c9;
     color: #444f59;
 }
@@ -55,7 +56,7 @@ article {
 .btn-answer:hover {
     background-color: #fd999a !important;
     color:#444f59;
-}
+} */
 
 .result {
     display: none;
