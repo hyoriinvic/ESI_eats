@@ -9,7 +9,6 @@
 
 body {
     font-family: 'ELAND_Choice_M';
-    color: #3e4149;
     word-break: keep-all;
 }
 
@@ -35,7 +34,6 @@ article {
 .btn {
     background-color:#fec8c9;
     height: 70px;
-    color: #444f59;
     transition: background 0.8s;
 }
 
