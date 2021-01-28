@@ -75,7 +75,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     
     <!-- 자바 스크립트 -->
-    <script>
+    <script type="text/javascript">
         var num = 1; // 현재 몇 번 문제에 있는지를 확인하기 위한 변수
         // 설문에 들어가는 질문
         var q = {
@@ -307,7 +307,7 @@
                 ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
 
                 alert(mbti); 
-                
+
                 $("#shleyz-type").html(result[mbti]["shleyz-type"]);
                 $("#shleyz-description").html(result[mbti]["shleyz-description"]);
                 $("#mbti-type").html(result[mbti]["mbti-type"]);
