@@ -37,18 +37,22 @@ article {
 
 .btn-start, .btn-start:visited, .btn-start:hover, .btn-start:active {
     background-color:#fec8c9;
+    color: #52616a;
 }
 .btn-start:active, .btn-start:focus {
     background-color:#fd999a !important;
+    color: #52616a;
 }
 
 /* 문제 화면 */
 .btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
     background-color:#fec8c9;
+    color: #52616a;
 }
 
 .btn-answer:hover {
     background-color: #fd999a !important;
+    color: #52616a;
 }
 
 .result {
