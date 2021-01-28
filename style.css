@@ -1,4 +1,9 @@
 /* 화면을 쉽게 꾸밀 수 있도록 getbootstrap.com 활용 */
+
+body {
+    color: #3e4149;
+}
+
 /* 화면별 버튼 세로 배열 */
 article {
     /* article 태그 만큼으로 가득차게 버튼이 만들어지도록 */
