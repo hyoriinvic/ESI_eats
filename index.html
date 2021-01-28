@@ -7,6 +7,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 네이버에서 웹이 검색되도록  -->
+    <!-- searchadvi -->
+    <meta name="naver-site-verification" content="43edffdd20a89f74c78e136351ae03d6efa517d4" />
     <title>Document</title>
     <!-- html을 꾸며주는 파일 -->
     <!-- 편리성 도모를 위해 getbootstrap.com 활용 - cdn -->
@@ -42,14 +45,13 @@
         <!-- addthis.com 으로 공유하기 기능 추가 -->
         <!-- Go to www.addthis.com/dashboard to customize your tools --> 
         <div class="share addthis_inline_share_toolbox mt-5"></div>
-    </article>
 
-    <!-- 카카오 애드핏으로 광고 추가 -->
-    <ins class="kakao_ad_area" style="display:none;" 
-    data-ad-unit    = "DAN-uE0HfdREw2obVTLS" 
-    data-ad-width   = "320" 
-    data-ad-height  = "100"></ins> 
-    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+        <!-- 이미지와 링크가 있다면 외부 광고 또한 추가 가능 
+        href: 연결될 링크 -->
+        <a class="add-banner mt-5" href="https://www.codelion.net/catalog/Q291cnNlTm9kZTpqbW9r?utm_source=animal_test&utm_medium=web_lecture&utm_campaign=jocoding">
+            <img class="add-banner-img" src="add-banner.png" alt="banner">
+        </a>
+    </article>
 
     <!-- 앞 글자에 대한 정보 저장(A버튼을 눌렀을 때만) > 유형 판별에 사용 -->
     <input type="hidden" id="EI" value="0">

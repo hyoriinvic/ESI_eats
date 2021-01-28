@@ -24,3 +24,14 @@ article {
 .share {
     margin: 0 auto;
 }
+
+.add-banner {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.add-banner-img {
+    width: 300px;
+}
