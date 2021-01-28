@@ -10,6 +10,10 @@ article {
     display: none;
 }
 
+.btn {
+    background-color: #fec9c9;
+}
+
 .result {
     display: none;
 }
