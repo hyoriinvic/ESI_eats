@@ -1,5 +1,4 @@
 /* 화면을 쉽게 꾸밀 수 있도록 getbootstrap.com 활용 */
-
 /* 화면별 버튼 세로 배열 */
 article {
     /* article 태그 만큼으로 가득차게 버튼이 만들어지도록 */
@@ -15,16 +14,18 @@ article {
     display: none;
 }
 
-#img {
+#result-img {
     width: 300px;
     height: 300px;
     margin: 0 auto; /* 가운데 배치 */
 }
 
+/* 공유하기 버튼 */
 .share {
     margin: 0 auto;
 }
 
+/* 광고용 배너 및 이미지 설정 */
 .add-banner {
     display: flex;
     justify-content: center;
