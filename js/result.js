@@ -6,7 +6,7 @@ var result = {
         "mbti-type" : "ESTJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "ES.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "estj-skill.png",
         "good-mate" : "앵그리버드 오몽새(ENTJ)",
         "bad-mate" : "과대망상 람찌(INFP)",
         "good-mate-img" : "EN.png",
@@ -19,7 +19,7 @@ var result = {
         "mbti-type" : "ESTP",
         "mbti-explain" : "설명 필요",
         "result-image" : "ES.png" , // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "estp-skill.png",
         "good-mate" : "태양신 코타(ISTP)",
         "bad-mate" : "오지라퍼 오몽새(ENFJ)",
         "good-mate-img" : "IS.png",
@@ -58,7 +58,7 @@ var result = {
         "mbti-type" : "ENTJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "entj-skill.png",
         "good-mate" : "말쌈닭 오몽새(ENTP)",
         "bad-mate" : "태양신 코타(ISTP)",
         "good-mate-img" : "EN.png",
@@ -71,7 +71,7 @@ var result = {
         "mbti-type" : "ENTP",
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "entp-skill.png",
         "good-mate" : "겉바속촉 람찌(INFJ)",
         "bad-mate" : "우렁각시 코타(ISFJ)",
         "good-mate-img" : "IN.png",
@@ -84,7 +84,7 @@ var result = {
         "mbti-type" : "ENFJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "enfj-skill.png",
         "good-mate" : "과대망상 람찌(INFP)",
         "bad-mate" : "원칙주의자 코타(ISTJ)",
         "good-mate-img" : "IS.png",
@@ -97,7 +97,7 @@ var result = {
         "mbti-type" : "ENFP",
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "enfp-skill.png",
         "good-mate" : "자발적 아싸 람찌(INTJ)",
         "bad-mate" : "불도저 베리빗(ESTP)",
         "good-mate-img" : "IN.png",
