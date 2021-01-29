@@ -7,10 +7,10 @@
     font-style: normal;
 }
 
-@import url("./css/progressBar.css");
-@import url("./css/question.css");
-@import url("./css/btn.css");
-@import url("./css/result.css");
+@import url("progressBar.css");
+@import url("question.css");
+@import url("btn.css");
+@import url("result.css");
 
 /* 전체 페이지에 대해, 글자체 적용 및  */
 body {
