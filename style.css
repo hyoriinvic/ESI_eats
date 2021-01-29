@@ -20,12 +20,22 @@ article {
     flex-direction: column;
 }
 
+#test-name {
+    color: #75D701;
+}
+
 #opening-text {
     color: #C4C4C4;
 }
 
 #opening-family-img {
     margin: 0 auto; /* 가운데 배치 */
+}
+
+#start-btn {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
 }
 
 #logo-img {
@@ -36,7 +46,8 @@ article {
 
 /* 프로그레스 바에 대한 설정 */
 .progress-bar {
-    background-color:#fc9d9a;
+    background-color:#75D701;
+    /* opacity: 0.75; */
 }
 
 /* 질문에 대한 설정 */
@@ -52,18 +63,29 @@ article {
 
 /* 버튼에 대한 설정 */
 .btn {
-    background-color:#fec8c9;
+    background-color:#75D701;
+    color: white;
     height: 70px;
     transition: background 0.8s;
 }
 
 .btn:hover, .btn:active {
-    background:#fec8c9;
+    background:#75D701;
+    color:white;
 }
 
 /* 결과창에 대한 설정 */
 .result {
     display: none;
+}
+
+#shleyz-type {
+    color: #75D701;
+    font-weight: bolder;
+}
+
+#mbti-type{
+    color: #C4C4C4;
 }
 
 /* 결과창에 들어가는 유형별 이미지 */

@@ -36,17 +36,17 @@
     <article class="start">
         <!-- 제목 입력 -->
         <div>
-            <h1 class="mt-5 text-center"><b>집콕유형검사<br>JKTI</b></h1>
+            <h1 id="test-name" class="mt-5 text-center"><b>집콕유형검사<br>JKTI</b></h1>
             <h5 id="opening-text" class="mt-5 text-center">친구들과의 방구석 파티로 여러분의 집콕생활유형을 검사해보세요!</h5>
         </div>
         <img id="opening-family-img" class="img-fluid rounded mx-auto d-block mt-5" src="./image/opening-family.PNG" alt="opening-family">
-        <button type="button" class="btn btn-start mt-5" onclick="start();">테스트 시작하기</button>
-        <img id="logo-img" class="mt-5" src="./image/logo.png" alt="ashley-logo">
+        <button id="start-btn" type="button" class="btn btn-start mt-5" onclick="start();">테스트 시작하기</button>
+        <!-- <img id="logo-img" class="mt-5" src="./image/logo.png" alt="ashley-logo"> -->
     </article>
 
     <article class="question" ontouchstart="">
         <div class="progress mt-5">
-            <div class="progress-bar" role="progressbar" style="width:calc(100/12*1%); background-color: #e94e77;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" style="width:calc(100/12*1%);" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <h2 id="title" class="text-center mt-5">문제</h2>
         <input id="type" type="hidden" value="EI">
@@ -65,22 +65,22 @@
 
     <!-- 결과 화면 -->
     <article class="result">
-        <h3 id="shleyz-description" class="text-center mt-5">슐리즈 한 문장</h3>
-        <h3 id="shleyz-type" class="text-center mt-2">슐리즈 타입</h3>
-        <h3 id="mbti-type" class="text-center mt-2">MBTI 유형</h3>
+        <h5 id="shleyz-description" class="text-center mt-5">슐리즈 한 문장</h5>
+        <h2 id="shleyz-type" class="text-center mt-2"><b>슐리즈 타입</b></h2>
+        <h5 id="mbti-type" class="text-center mt-2">MBTI 유형</h5>
         <img id="result-img" class="rounded-circle mt-2" src="./image/shleyz.png" alt="result-image">
         <img id="skill-img" class="mt-2" src="./image/shleyz.png" alt="skill-image">
-        <h3 id="mbti-explain" class="text-center mt-5">설명</h3>
+        <h5 id="mbti-explain" class="text-center mt-5">설명</h3>
         <!-- 환상/환장의 짝궁 이미지 추가 -->
         <div class="container mt-5">
             <div class="row row-cols-2">
                 <div class="col">
-                    <h5 class="text-center mt-5">환상의 짝꿍</h5>
-                    <h5 id="good-mate" class="text-center mt-2">환상의 짝꿍</h5>
+                    <h6 class="text-center mt-5"><b>환상의 짝꿍</b></h6>
+                    <h6 id="good-mate" class="text-center mt-2">환상의 짝꿍</h6>
                 </div>
                 <div class="col">
-                    <h5 class="text-center mt-5">환장의 짝꿍</h5>
-                    <h5 id="bad-mate" class="text-center mt-2">환장의 짝꿍</h5>
+                    <h6 class="text-center mt-5"><b>환장의 짝꿍</b></h6>
+                    <h6 id="bad-mate" class="text-center mt-2">환장의 짝꿍</h6>
                 </div>
                 <div class="col">
                     <img id="good-mate-img" class="img-fluid rounded mx-auto d-block mt-2" src="./image/shleyz.png" alt="good-mate-img">
