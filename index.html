@@ -61,31 +61,35 @@
 
     <!-- 결과 화면 -->
     <article class="result">
-        <h2 id="shleyz-description" class="text-center mt-5">슐리즈 한 문장</h2>
-        <h2 id="shleyz-type" class="text-center mt-2">슐리즈 타입</h2>
+        <h3 id="shleyz-description" class="text-center mt-5">슐리즈 한 문장</h3>
+        <h3 id="shleyz-type" class="text-center mt-2">슐리즈 타입</h3>
         <h3 id="mbti-type" class="text-center mt-2">MBTI 유형</h3>
-        <img id="result-img" class="rounded-circle mt-5" src="./image/shleyz.png" alt="result-image">
+        <img id="result-img" class="rounded-circle mt-2" src="./image/shleyz.png" alt="result-image">
+        <img id="skill-img" class="mt-2" src="./image/shleyz.png" alt="skill-image">
         <h3 id="mbti-explain" class="text-center mt-5">설명</h3>
         <!-- 환상/환장의 짝궁 이미지 추가 -->
-        <div class="container">
-            <div class="col text-center"><b>환상의 짝꿍</b></div>
-            <div class="col text-center"><b>환장의 짝꿍</b></div>
+        <div class="container mt-5">
             <div class="row row-cols-2">
                 <div class="col">
-                    <h4 id="good-mate" class="text-center mt-5">환상의 짝꿍</h4>
+                    <h5 class="text-center mt-5">환상의 짝꿍</h5>
+                    <h5 id="good-mate" class="text-center mt-2">환상의 짝꿍</h5>
                 </div>
                 <div class="col">
-                    <h4 id="bad-mate" class="text-center mt-5">환장의 짝꿍</h4>
+                    <h5 class="text-center mt-5">환장의 짝꿍</h5>
+                    <h5 id="bad-mate" class="text-center mt-2">환장의 짝꿍</h5>
                 </div>
                 <div class="col">
-                    <img id="good-mate-img" class="img-fluid rounded mx-auto d-block" src="./image/shleyz.png" alt="good-mate-img">
+                    <img id="good-mate-img" class="img-fluid rounded mx-auto d-block mt-2" src="./image/shleyz.png" alt="good-mate-img">
                 </div>
                 <div class="col">
-                    <img id="bad-mate-img" class="img-fluid rounded mx-auto d-block" src="./image/shleyz.png" alt="bad-mate-img">
+                    <img id="bad-mate-img" class="img-fluid rounded mx-auto d-block mt-2" src="./image/shleyz.png" alt="bad-mate-img">
                 </div>
             </div>
         </div>
-        <h3 id="menu-recommendation" class="text-center mt-5">추천 메뉴</h3>
+        <!-- 추천 메뉴 칸 -->
+        <div>
+            <h3 id="menu-recommendation" class="text-center mt-5">추천 메뉴</h3>
+        </div>
         <!-- addthis.com 으로 공유하기 기능 추가 -->
         <!-- Go to www.addthis.com/dashboard to customize your tools --> 
         <div class="share addthis_inline_share_toolbox mt-5"></div>
@@ -151,8 +155,11 @@
                 $("#mbti-type").html(result[mbti]["mbti-type"]);
                 $("#mbti-explain").html(result[mbti]["mbti-explain"]);
                 $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
+                $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
                 $("#good-mate").html(result[mbti]["good-mate"]);
                 $("#bad-mate").html(result[mbti]["bad-mate"]);
+                $("#good-mate-img").attr("src", "image/"+result[mbti]["good-mate-img"]);
+                $("#bad-mate-img").attr("src", "image/"+result[mbti]["bad-mate-img"]);
                 $("#menu-recommendation").html(result[mbti]["menu-recommendation"]);
             } else {
                 // progress bar 채우기

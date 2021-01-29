@@ -6,8 +6,11 @@ var result = {
         "mbti-type" : "ESTJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "ES.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "앵그리버드 오몽새(ENTJ)",
         "bad-mate" : "과대망상 람찌(INFP)",
+        "good-mate-img" : "EN.png",
+        "bad-mate-img" : "IN.png",
         "menu-recommendation" : "애슐리 버라이어티팩"
     },
     "ESTP" : {
@@ -16,8 +19,11 @@ var result = {
         "mbti-type" : "ESTP",
         "mbti-explain" : "설명 필요",
         "result-image" : "ES.png" , // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "태양신 코타(ISTP)",
         "bad-mate" : "오지라퍼 오몽새(ENFJ)",
+        "good-mate-img" : "IS.png",
+        "bad-mate-img" : "EN.png",
         "menu-recommendation" : "홈뷔페 프리미엄 그릴 SET"
     },
     "ESFJ" : {
@@ -26,8 +32,11 @@ var result = {
         "mbti-type" : "ESFJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "ES.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "의문의 인싸 코타(ISFP)",
         "bad-mate" : "자기애 폭발 람찌(INTP)",
+        "good-mate-img" : "IS.png",
+        "bad-mate-img" : "IN.png",
         "menu-recommendation" : "딸기 버라이어티팩"
     },
     "ESFP" : {
@@ -36,8 +45,11 @@ var result = {
         "mbti-type" : "ESFP",
         "mbti-explain" : "설명 필요",
         "result-image" : "ES.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "원칙주의자 코타(ISTJ)",
         "bad-mate" : "자발적 아싸 람찌(INTJ)",
+        "good-mate-img" : "IS.png",
+        "bad-mate-img" : "IN.png",
         "menu-recommendation" : "딸기 버라이어티팩"
     },
     "ENTJ" : {
@@ -46,8 +58,11 @@ var result = {
         "mbti-type" : "ENTJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "말쌈닭 오몽새(ENTP)",
         "bad-mate" : "태양신 코타(ISTP)",
+        "good-mate-img" : "EN.png",
+        "bad-mate-img" : "IS.png",
         "menu-recommendation" : "비어 버라이어티팩"
     },
     "ENTP" : {
@@ -56,8 +71,11 @@ var result = {
         "mbti-type" : "ENTP",
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "겉바속촉 람찌(INFJ)",
         "bad-mate" : "우렁각시 코타(ISFJ)",
+        "good-mate-img" : "IN.png",
+        "bad-mate-img" : "IS.png",
         "menu-recommendation" : "자이언트 글레이즈드 폭립"
     },
     "ENFJ" : {
@@ -66,8 +84,11 @@ var result = {
         "mbti-type" : "ENFJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "과대망상 람찌(INFP)",
         "bad-mate" : "원칙주의자 코타(ISTJ)",
+        "good-mate-img" : "IS.png",
+        "bad-mate-img" : "IN.png",
         "menu-recommendation" : "애슐리 홈 뷔페"
     },
     "ENFP" : {
@@ -76,8 +97,11 @@ var result = {
         "mbti-type" : "ENFP",
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "자발적 아싸 람찌(INTJ)",
         "bad-mate" : "불도저 베리빗(ESTP)",
+        "good-mate-img" : "IN.png",
+        "bad-mate-img" : "ES.png",
         "menu-recommendation" : "애슐리 홈 뷔페"
     },
     "ISTJ" : {
@@ -86,8 +110,11 @@ var result = {
         "mbti-type" : "ISTJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "사교계의 여왕 베리빗(ESFJ)",
         "bad-mate" : "겉바속촉 람찌(INFJ)",
+        "good-mate-img" : "ES.png",
+        "bad-mate-img" : "IN.png",
         "menu-recommendation" : "홈뷔페 패밀리 SET"
     },
     "ISTP" : {
@@ -96,8 +123,11 @@ var result = {
         "mbti-type" : "ISTP",
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "불도저 베리빗(ESTP)",
         "bad-mate" : "말쌈닭 오몽새(ENTP)",
+        "good-mate-img" : "ES.png",
+        "bad-mate-img" : "EN.png",
         "menu-recommendation" : "그린팜 버라이어티팩"
     },
     "ISFJ" : {
@@ -106,8 +136,11 @@ var result = {
         "mbti-type" : "ISFJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "연예인 베리빗(ESFP)",
         "bad-mate" : "긍정왕 오몽새(ENFP)",
+        "good-mate-img" : "ES.png",
+        "bad-mate-img" : "EN.png",
         "menu-recommendation" : "애슐리 홈 뷔페"
     },
     "ISFP" : {
@@ -116,8 +149,11 @@ var result = {
         "mbti-type" : "ISFP",
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "관리 감독 베리빗(ESTJ)",
         "bad-mate" : "앵그리버드 오몽새(ENTJ)",
+        "good-mate-img" : "ES.png",
+        "bad-mate-img" : "EN.png",
         "menu-recommendation" : "딸기 버라이어티팩"
     },
     "INTJ" : {
@@ -126,8 +162,11 @@ var result = {
         "mbti-type" : "INTJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "긍정왕 오몽새(ENFP)",
         "bad-mate" : "사교계의 여왕 베리빗(ESFJ)",
+        "good-mate-img" : "EN.png",
+        "bad-mate-img" : "ES.png",
         "menu-recommendation" : "시그니처 파스타 SET"
     },
     "INTP" : {
@@ -136,8 +175,11 @@ var result = {
         "mbti-type" : "INTP",
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "오지라퍼 오몽새(ENFJ)",
         "bad-mate" : "연예인 베리빗(ESFP)",
+        "good-mate-img" : "EN.png",
+        "bad-mate-img" : "ES.png",
         "menu-recommendation" : "시그니처 그릴 SET"
     },
     "INFJ" : {
@@ -146,8 +188,11 @@ var result = {
         "mbti-type" : "INFJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "우렁각시 코타(ISFJ)",
         "bad-mate" : "의문의 인싸 코타(ISFP)",
+        "good-mate-img" : "IS.png",
+        "bad-mate-img" : "IS.png",
         "menu-recommendation" : "키즈 버라이어티팩"
     },
     "INFP" : {
@@ -156,8 +201,11 @@ var result = {
         "mbti-type" : "INFP",
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
+        "skill-img" : "shleyz.png",
         "good-mate" : "자기애 폭발 람찌(INTP)",
         "bad-mate" : "관리 감독 베리빗(ESTJ)",
+        "good-mate-img" : "IN.png",
+        "bad-mate-img" : "ES.png",
         "menu-recommendation" : "애슐리 홈 뷔페"
     }
 }

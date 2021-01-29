@@ -65,6 +65,24 @@ article {
     margin: 0 auto; /* 가운데 배치 */
 }
 
+#skill-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto; /* 가운데 배치 */
+}
+
+#good-mate-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; /* 가운데 배치 */
+}
+
+#bad-mate-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; /* 가운데 배치 */
+}
+
 /* 화면 하단의 공유하기 버튼 */
 .share {
     margin: 0 auto;
