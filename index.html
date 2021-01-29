@@ -81,7 +81,6 @@
     <!-- 자바 스크립트 -->
     <script type="text/javascript" src="./js/question.js"></script>
     <script type="text/javascript" src="./js/result.js"></script>
-    <script type="text/javascript" src="./js/btnClick.js"></script>
     <script type="text/javascript">
         var num = 1; // 현재 몇 번 문제에 있는지를 확인하기 위한 변수
         // 테스트 시작하기 버튼 클릭 시 화면 내 모든 요소 숨기기
@@ -89,6 +88,56 @@
             $(".start").hide();
             $(".question").show();
             next();
+        }
+
+        // 첫번째 버튼 click 시 value change 및 다음 문제 이동
+        $("#A").click(function() {
+            // id = type 인 input tag의 value 가져오기(문제에 해당되는 MBTI type 확인)
+            // MBTI type의 현재 value 가져오기
+            var type = $("#type").val();
+            var prevalue = $("#"+type).val();
+            $("#"+type).val(parseInt(prevalue)+1); // 새로운 값으로 변경
+            next(); // 다음 문제로 이동
+        });
+
+        // 두번째 버튼 click 시 다음 문제 이동
+        $("#B").click(function() {
+            next();
+        });
+
+        // 답변 선택 시 다음 문제로 이동 & 결과 페이지
+        function next() {
+            // 문항이 12개니까, 마지막 문제에 도달하면
+            if (num == 13){
+                $(".question").hide();
+                $(".result").show();
+                
+                // 최종 MBTI 구하기
+                var mbti = "";
+
+                ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";
+                ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
+                ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
+                ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
+
+                $("#shleyz-type").html(result[mbti]["shleyz-type"]);
+                $("#shleyz-description").html(result[mbti]["shleyz-description"]);
+                $("#mbti-type").html(result[mbti]["mbti-type"]);
+                $("#mbti-explain").html(result[mbti]["mbti-explain"]);
+                $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
+                $("#good-mate").html(result[mbti]["good-mate"]);
+                $("#bad-mate").html(result[mbti]["bad-mate"]);
+                $("#menu-recommendation").html(result[mbti]["menu-recommendation"]);
+            } else {
+                // progress bar 채우기
+                $(".progress-bar").attr("style", "width:calc(100/12*"+num+"%)");
+
+                $("#title").html(q[num]["title"]);
+                $("#type").val(q[num]["type"]);
+                $("#A").html(q[num]["A"]);
+                $("#B").html(q[num]["B"]);
+                num++;
+            }            
         }
     </script>
     <!-- addthis.com 으로 공유하기 기능 추가 -->
