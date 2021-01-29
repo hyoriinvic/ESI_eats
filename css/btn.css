@@ -1,9 +1,0 @@
-.btn {
-    background-color:#fec8c9;
-    height: 70px;
-    transition: background 0.8s;
-}
-
-.btn:hover, .btn:active {
-    background:#fec8c9;
-}

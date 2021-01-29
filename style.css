@@ -1,0 +1,83 @@
+/* 화면을 쉽게 꾸밀 수 있도록 getbootstrap.com 활용 */
+
+@font-face {
+    font-family: 'ELAND_Choice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 전체 페이지에 대해, 글자체 적용 및  */
+body {
+    font-family: 'ELAND_Choice_M';
+    word-break: keep-all;
+}
+
+/* 화면별 버튼 세로 배열 */
+article {
+    /* article 태그 만큼으로 가득차게 버튼이 만들어지도록 */
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-img {
+    width: 50px;
+    height: 30px;
+    margin: 0 auto; /* 가운데 배치 */
+}
+
+/* 프로그레스 바에 대한 설정 */
+.progress-bar {
+    background-color:#fc9d9a;
+}
+
+/* 질문에 대한 설정 */
+/* 문제와 선택지가 들어가는 article tag 에서의 class */
+.question {
+    display: none;
+}
+
+/* 문제에 대한 설정 */
+#title{
+    font-weight: bolder;
+}
+
+/* 버튼에 대한 설정 */
+.btn {
+    background-color:#fec8c9;
+    height: 70px;
+    transition: background 0.8s;
+}
+
+.btn:hover, .btn:active {
+    background:#fec8c9;
+}
+
+/* 결과창에 대한 설정 */
+.result {
+    display: none;
+}
+
+/* 결과창에 들어가는 유형별 이미지 */
+#result-img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto; /* 가운데 배치 */
+}
+
+/* 화면 하단의 공유하기 버튼 */
+.share {
+    margin: 0 auto;
+}
+
+/* 광고용 배너 및 이미지 설정 */
+.add-banner {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.add-banner-img {
+    width: 300px;
+}
