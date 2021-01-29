@@ -1,0 +1,27 @@
+.result {
+    display: none;
+}
+
+/* 결과창에 들어가는 유형별 이미지 */
+#result-img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto; /* 가운데 배치 */
+}
+
+/* 화면 하단의 공유하기 버튼 */
+.share {
+    margin: 0 auto;
+}
+
+/* 광고용 배너 및 이미지 설정 */
+.add-banner {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.add-banner-img {
+    width: 300px;
+}

@@ -1,0 +1,9 @@
+/* 문제와 선택지가 들어가는 article tag 에서의 class */
+.question {
+    display: none;
+}
+
+/* 문제에 대한 설정 */
+#title{
+    font-weight: bolder;
+}
