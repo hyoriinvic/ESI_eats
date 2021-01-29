@@ -50,13 +50,14 @@
         <button id="B" type="button" class="btn btn-answer mt-5">답변2</button>
     </article>
 
-    <article id="calc">
+    <!-- calculating bar 설정 -->
+    <!-- <article id="calc">
         <div class="calc-bar">
             CALCULATING
             <div class="calc"></div>
         </div>
         <p class="wait">잠시 기다려주세요...</p>
-    </article>
+    </article> -->
 
     <!-- 결과 화면 -->
     <article class="result">
@@ -65,8 +66,25 @@
         <h3 id="mbti-type" class="text-center mt-2">MBTI 유형</h3>
         <img id="result-img" class="rounded-circle mt-5" src="./image/shleyz.png" alt="result-image">
         <h3 id="mbti-explain" class="text-center mt-5">설명</h3>
-        <h4 id="good-mate" class="text-center mt-5">환상의 짝꿍</h4>
-        <h4 id="bad-mate" class="text-center mt-5">환장의 짝꿍</h4>
+        <!-- 환상/환장의 짝궁 이미지 추가 -->
+        <div class="container">
+            <div class="col text-center"><b>환상의 짝꿍</b></div>
+            <div class="col text-center"><b>환장의 짝꿍</b></div>
+            <div class="row row-cols-2">
+                <div class="col">
+                    <h4 id="good-mate" class="text-center mt-5">환상의 짝꿍</h4>
+                </div>
+                <div class="col">
+                    <h4 id="bad-mate" class="text-center mt-5">환장의 짝꿍</h4>
+                </div>
+                <div class="col">
+                    <img id="good-mate-img" class="img-fluid rounded mx-auto d-block" src="./image/shleyz.png" alt="good-mate-img">
+                </div>
+                <div class="col">
+                    <img id="bad-mate-img" class="img-fluid rounded mx-auto d-block" src="./image/shleyz.png" alt="bad-mate-img">
+                </div>
+            </div>
+        </div>
         <h3 id="menu-recommendation" class="text-center mt-5">추천 메뉴</h3>
         <!-- addthis.com 으로 공유하기 기능 추가 -->
         <!-- Go to www.addthis.com/dashboard to customize your tools --> 
@@ -118,8 +136,6 @@
             // 문항이 12개니까, 마지막 문제에 도달하면
             if (num == 13){
                 $(".question").hide();
-                $("#calc").show();
-                $("#calc").hide();
                 $(".result").show();
                 
                 // 최종 MBTI 구하기
