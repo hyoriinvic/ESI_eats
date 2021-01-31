@@ -74,6 +74,14 @@ article {
     color:white;
 }
 
+/* 문제 진행 상황 보이도록 */
+.progress-number {
+    margin-left:auto;    
+    color: #C4C4C4;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 /* 결과창에 대한 설정 */
 .result {
     display: none;

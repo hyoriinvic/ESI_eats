@@ -52,6 +52,9 @@
         <input id="type" type="hidden" value="EI">
         <button id="A" type="button" class="btn btn-answer mt-5">답변1</button>
         <button id="B" type="button" class="btn btn-answer mt-5">답변2</button>
+        <div class="progress-number text-right mt-5">
+            <sup>1</sup><sub>/ 12</sub>
+        </div>
     </article>
 
     <!-- calculating bar 설정 -->
@@ -168,6 +171,7 @@
             } else {
                 // progress bar 채우기
                 $(".progress-bar").attr("style", "width:calc(100/12*"+num+"%)");
+                $("#question-number").html(num);
 
                 $("#title").html(q[num]["title"]);
                 $("#type").val(q[num]["type"]);

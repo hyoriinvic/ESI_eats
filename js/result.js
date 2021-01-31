@@ -32,7 +32,7 @@ var result = {
         "mbti-type" : "ESFJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "ES.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "esfj-skill.png",
         "good-mate" : "의문의 인싸 코타(ISFP)",
         "bad-mate" : "자기애 폭발 람찌(INTP)",
         "good-mate-img" : "IS.png",
@@ -45,7 +45,7 @@ var result = {
         "mbti-type" : "ESFP",
         "mbti-explain" : "설명 필요",
         "result-image" : "ES.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "esfp-skill.png",
         "good-mate" : "원칙주의자 코타(ISTJ)",
         "bad-mate" : "자발적 아싸 람찌(INTJ)",
         "good-mate-img" : "IS.png",
@@ -110,7 +110,7 @@ var result = {
         "mbti-type" : "ISTJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "istj-skill.png",
         "good-mate" : "사교계의 여왕 베리빗(ESFJ)",
         "bad-mate" : "겉바속촉 람찌(INFJ)",
         "good-mate-img" : "ES.png",
@@ -123,7 +123,7 @@ var result = {
         "mbti-type" : "ISTP",
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "istp-skill.png",
         "good-mate" : "불도저 베리빗(ESTP)",
         "bad-mate" : "말쌈닭 오몽새(ENTP)",
         "good-mate-img" : "ES.png",
@@ -136,7 +136,7 @@ var result = {
         "mbti-type" : "ISFJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "isfj-skill.png",
         "good-mate" : "연예인 베리빗(ESFP)",
         "bad-mate" : "긍정왕 오몽새(ENFP)",
         "good-mate-img" : "ES.png",
@@ -149,7 +149,7 @@ var result = {
         "mbti-type" : "ISFP",
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "isfp-skill.png",
         "good-mate" : "관리 감독 베리빗(ESTJ)",
         "bad-mate" : "앵그리버드 오몽새(ENTJ)",
         "good-mate-img" : "ES.png",
@@ -162,7 +162,7 @@ var result = {
         "mbti-type" : "INTJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "intj-skill.png",
         "good-mate" : "긍정왕 오몽새(ENFP)",
         "bad-mate" : "사교계의 여왕 베리빗(ESFJ)",
         "good-mate-img" : "EN.png",
@@ -175,7 +175,7 @@ var result = {
         "mbti-type" : "INTP",
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "intp-skill.png",
         "good-mate" : "오지라퍼 오몽새(ENFJ)",
         "bad-mate" : "연예인 베리빗(ESFP)",
         "good-mate-img" : "EN.png",
@@ -188,7 +188,7 @@ var result = {
         "mbti-type" : "INFJ",
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "infj-skill.png",
         "good-mate" : "우렁각시 코타(ISFJ)",
         "bad-mate" : "의문의 인싸 코타(ISFP)",
         "good-mate-img" : "IS.png",
@@ -201,7 +201,7 @@ var result = {
         "mbti-type" : "INFP",
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
-        "skill-img" : "shleyz.png",
+        "skill-img" : "infp-skill.png",
         "good-mate" : "자기애 폭발 람찌(INTP)",
         "bad-mate" : "관리 감독 베리빗(ESTJ)",
         "good-mate-img" : "IN.png",
