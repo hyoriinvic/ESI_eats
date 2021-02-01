@@ -4,7 +4,7 @@ var result = {
         "shleyz-description" : "예방만이 살길! 열 체크 했지? 손소독 했지?",
         "shleyz-type" : "관리감독 베리빗",
         "mbti-type" : "ESTJ",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "현실적이고 구체적이며 활동을 조직화하고 주도해나가는 지도력을 가진 베리빗! 리더 역할을 딱히 선호하진 않지만 막상 맡으면 1등 리더감 쌉가능! 하지만 독창성과 창의력은 조금 부족할수도...?",
         "result-image" : "ES.png", // 각 유형별 이미지
         "skill-img" : "estj-skill.png",
         "good-mate" : "앵그리버드 오몽새(ENTJ)",
@@ -17,7 +17,7 @@ var result = {
         "shleyz-description" : "그래도 놀 땐 확실하게 놀아야지!",
         "shleyz-type" : "추진력 갑! 불도저 베리빗",
         "mbti-type" : "ESTP",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "오감으로 보고 듣고 만질 수 있는 삶의 모든 것을 즐기는 베리빗! 노는 것과 술 자리엔 도가 텄군요!",
         "result-image" : "ES.png" , // 각 유형별 이미지
         "skill-img" : "estp-skill.png",
         "good-mate" : "태양신 코타(ISTP)",
@@ -30,7 +30,7 @@ var result = {
         "shleyz-description" : "못 볼 땐 온라인으로라도 만나자!",
         "shleyz-type" : "사교계의 여왕 베리빗",
         "mbti-type" : "ESFJ",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "사회성이 풍부하고 정이 많은 베리빗. 하지만 정이 많은 만큼 인간 관계에서 큰 상처를 받으면 추락하기 쉬우니 주의해야 해요..",
         "result-image" : "ES.png", // 각 유형별 이미지
         "skill-img" : "esfj-skill.png",
         "good-mate" : "의문의 인싸 코타(ISFP)",
@@ -43,7 +43,7 @@ var result = {
         "shleyz-description" : "화려한 조명은 나를 감싸라고!",
         "shleyz-type" : "연예인 베리빗",
         "mbti-type" : "ESFP",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "개성 넘치는 매력의 베리빗! 활동적이고 낙천적이며, 행복도도 가장 높아요! 통계적인 수치일 뿐이지만.. 평균적인 IQ가 낮다는 소문이 있다는데..?",
         "result-image" : "ES.png", // 각 유형별 이미지
         "skill-img" : "esfp-skill.png",
         "good-mate" : "원칙주의자 코타(ISTJ)",

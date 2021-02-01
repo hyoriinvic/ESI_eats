@@ -75,14 +75,14 @@ article {
 }
 
 .btn-answer {
-    font-size: 20px;
+    font-size: px;
 }
 
 /* 문제 진행 상황 보이도록 */
 .progress-number {
     margin-left:auto;    
     color: #C4C4C4;
-    font-size: 20px;
+    font-size: px;
     /* float: left; */
     flex: 1;
 }
@@ -114,16 +114,32 @@ article {
     margin: 0 auto; /* 가운데 배치 */
 }
 
+#mbti-explain{
+    margin: 0 auto;
+    font-size: 18px;
+    /* color:  #4c4c4c; */
+}
+
+.col{
+    border: 2px dashed #75D701;
+}
+
+#mate {
+    border: 2px dashed #75D701;
+}
+
 #good-mate-img {
     width: 200px;
     height: 200px;
-    margin: 0 auto; /* 가운데 배치 */
+    margin: 0 auto;
+    margin-bottom: 10px; /* 가운데 배치 */
 }
 
 #bad-mate-img {
     width: 200px;
     height: 200px;
     margin: 0 auto; /* 가운데 배치 */
+    margin-bottom: 10px;
 }
 
 /* 화면 하단의 공유하기 버튼 */
