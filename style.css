@@ -75,7 +75,7 @@ article {
 }
 
 .btn-answer {
-    font-size: px;
+    font-size: 20px;
 }
 
 /* 문제 진행 상황 보이도록 */
@@ -120,24 +120,33 @@ article {
     /* color:  #4c4c4c; */
 }
 
-.col{
-    border: 2px dashed #75D701;
+.recommendation {
+    margin: 0 auto;
 }
 
-#mate {
-    border: 2px dashed #75D701;
+.card {
+    float: right;
+    /* box-shadow: 2.5px 2.5px  #c4C4C4; */
+}
+
+.title {
+    font-size: 17.5px;
+}
+
+.mate-mbti {
+    color: #c4C4C4;
 }
 
 #good-mate-img {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     margin: 0 auto;
     margin-bottom: 10px; /* 가운데 배치 */
 }
 
 #bad-mate-img {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     margin: 0 auto; /* 가운데 배치 */
     margin-bottom: 10px;
 }
