@@ -207,6 +207,10 @@ article {
     height: 150px;
 }
 
+#menu-name {
+    font-size: 22.5px;
+}
+
 #buffet-menu {
     font-size: 22.5px;
 }
@@ -214,6 +218,15 @@ article {
 /* 화면 하단의 공유하기 버튼 */
 .share {
     margin: 0 auto;
+}
+
+.btn-retest {
+    background-color:#75D701;
+    color: white;
+    height: 50px;
+    transition: background 0.8s;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 /* 광고용 배너 및 이미지 설정 */

@@ -4,7 +4,7 @@ var result = {
         "shleyz-description" : "예방만이 살길! 열 체크 했지? 손소독 했지?",
         "shleyz-type" : "관리감독 베리빗",
         "mbti-type" : "ESTJ",
-        "mbti-explain" : "현실적이고 구체적이며 활동을 조직화하고 주도해나가는 지도력을 가진 베리빗! 리더 역할을 딱히 선호하진 않지만 막상 맡으면 1등 리더감 쌉가능! 하지만 독창성과 창의력은 조금 부족할수도...?",
+        "mbti-explain" : "<b>#실용적 #체계적 #사업가</b><br>현실적이고 체계적으로 어떠한 활동이든 주도적으로 이끌어나가는 지도력을 가진 관리감독 베리빗! 리더역할을 딱히 선호하지는 않으나 막상 맡으면 1등 리더감 쌉파써블! 홈파티를 주최하게 된다면 꼼꼼하고 시원시원하게 일사천리로 일처리할 것이 분명해요!",
         "result-image" : "ES.png", // 각 유형별 이미지
         "skill-img" : "estj-skill.png",
         "percentage": "10.7%",
@@ -22,7 +22,7 @@ var result = {
         "shleyz-description" : "그래도 놀 땐 확실하게 놀아야지!",
         "shleyz-type" : "추진력 갑! 불도저 베리빗",
         "mbti-type" : "ESTP",
-        "mbti-explain" : "오감으로 보고 듣고 만질 수 있는 삶의 모든 것을 즐기는 베리빗! 노는 것과 술 자리엔 도가 텄군요!",
+        "mbti-explain" : "<b>#다양함 #활동가 #타협적</b><br>오감으로 보고 듣고 만질 수 있는 삶의 모든 것을 즐기는 추진력갑 불도저 베리빗! 당신은 노는 것엔 도가 텄습니다. 선입견이라고는 없는, 센스쟁이 베리빗! 현실적이고 논리적인 당신은 화끈하게 홈파티를 진행할 것이 분명하네요!",
         "result-image" : "ES.png" , // 각 유형별 이미지
         "skill-img" : "estp-skill.png",
         "percentage": "3.5%",
@@ -40,7 +40,7 @@ var result = {
         "shleyz-description" : "못 볼 땐 온라인으로라도 만나자!",
         "shleyz-type" : "사교계의 여왕 베리빗",
         "mbti-type" : "ESFJ",
-        "mbti-explain" : "사회성이 풍부하고 정이 많은 베리빗. 하지만 정이 많은 만큼 인간 관계에서 큰 상처를 받으면 추락하기 쉬우니 주의해야 해요..",
+        "mbti-explain" : "<b>#관심 #친선도모 #공감능력</b><br>동료애가 많고 친절한 타고난 협력자의 면모를 보이는 베리빗! 사회성이 풍부하며 정이 많고 다른 슐리즈들을 잘 다루네요. 하지만 정이 많은 베리빗은 배신과는 멀기 때문에 인간관계에서 큰 상처를 받으면 추락하기 쉬우니 조심하기! 베리빗은 다수와의 홈파티를 너무 좋아해요.",
         "result-image" : "ES.png", // 각 유형별 이미지
         "skill-img" : "esfj-skill.png",
         "percentage": "6.6%",
@@ -58,7 +58,7 @@ var result = {
         "shleyz-description" : "화려한 조명은 나를 감싸라고!",
         "shleyz-type" : "연예인 베리빗",
         "mbti-type" : "ESFP",
-        "mbti-explain" : "개성 넘치는 매력의 베리빗! 활동적이고 낙천적이며, 행복도도 가장 높아요! 통계적인 수치일 뿐이지만.. 평균적인 IQ가 낮다는 소문이 있다는데..?",
+        "mbti-explain" : "<b>#우호적 #개방적 #열심<b><br>또래들 사이에서 연예인급 인기를 누리는 베리빗! 다른 슐리즈들에 비해 정이 많고 건망증이 심해요. 하지만 가장 행복도가 높은 베리빗이랍니다. 개성적인 매력이 넘치는 베리빗은 활동적이며 낙천적이에요!",
         "result-image" : "ES.png", // 각 유형별 이미지
         "skill-img" : "esfp-skill.png",
         "percentage": "5.3%",
@@ -76,7 +76,7 @@ var result = {
         "shleyz-description" : "않!이! 코로나 외.않.끝.나? 화가 난다!",
         "shleyz-type" : "앵그리버드 오몽새",
         "mbti-type" : "ENTJ",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#활력적 #지도자 #철두철미</b><br>지적인 자극을 주는 새로운 아이디어에 목마른 오몽새.논리적 계산에도 능숙해서 유능한 성격의 대표 주자라고 할 수 있죠. 사회적으로 가장 성공하는 슐리즈랍니다! 하지만 감정표현이 아주 솔직한 오몽새라 다른 슐리즈들이 상처를 받을 수도 있으니 조심하기!!",
         "result-image" : "EN.png", // 각 유형별 이미지
         "skill-img" : "entj-skill.png",
         "percentage": "3.8%",
@@ -94,7 +94,7 @@ var result = {
         "shleyz-description" : "코로나 딱 대! 넌 틀렸어. 내가 증명할테니 잘 들어.",
         "shleyz-type" : "말쌈닭 오몽새",
         "mbti-type" : "ENTP",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#독창적 #발명가 #새로움</b><br>독창력과 창의력이 풍부한 오몽새! 안목이 넓고 다방면에 관심과 재능이 많아요! 말쌈닭 오몽새는 다재다능한 팔방미인이에요. 아싸 중의 인싸, 인싸 중의 아싸라 홈파티를 좋아하는데 귀찮아해요. 마음에 들지 않는 상대에게는 상황에 대해 비꼬는 능력이 탁월하며 블랙유머에 강해요. 다들 오몽새의 눈밖에 나지 않도록 조심 또 조심!",
         "result-image" : "EN.png", // 각 유형별 이미지
         "skill-img" : "entp-skill.png",
         "percentage": "3.5%",
@@ -112,7 +112,7 @@ var result = {
         "shleyz-description" : "마스크 했지? 냄새 잘 맡지? 소독 잘했지?",
         "shleyz-type" : "오지라퍼 오몽새",
         "mbti-type" : "ENFJ",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#의견존중 #언변능숙 #과민반응</b><br>오몽새는 이타적이고 책임감이 강하며 동정심이 많아요. 모임을 좋아하며 적극적인 대화를 좋아하는 오몽새랍니다. 슐리즈 모두를 좋아해서 잘 맞추며 걱정이 매우 많은 타입이지만 티를 잘 내지 않는 오몽새에요. 슐리즈들 중 가장 감성적이랍니다. 남의 말을 의심없이 잘 믿어서 사기를 당하기 쉬우니 조심하세요!",
         "result-image" : "EN.png", // 각 유형별 이미지
         "skill-img" : "enfj-skill.png",
         "percentage": "3.5%",
@@ -130,7 +130,7 @@ var result = {
         "shleyz-description" : "그래도 친구들 얼굴도 보고~ 홈파티도 하고~",
         "shleyz-type" : "긍정왕 오몽새",
         "mbti-type" : "ENFP",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#열정적 #순발력 #스파크</b><br>활기가 넘치고 재능이 많으며 상상력이 풍부한 오몽새! 슐리즈들을 기쁘게 해주는 타고난 능력이 있어서 주변에 따르는 슐리즈들이 많아요! 평소에 화는 잘 내지 않지만 잘 토라지는 오몽새를 잘 달래주세요! 항상 수다스럽고 밝은 오몽새와 함께 홈파티 기기~!~!",
         "result-image" : "EN.png", // 각 유형별 이미지
         "skill-img" : "enfp-skill.png",
         "percentage": "8.4%",
@@ -148,7 +148,7 @@ var result = {
         "shleyz-description" : "파티 하나를 하더라도 컨셉, 플레이팅 모두 놓칠 수 없지!",
         "shleyz-type" : "원칙주의자 할아버지 코타",
         "mbti-type" : "ISTJ",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#현실적 #책임감 #빛과소금</b><br>급 바뀌어 버린 비대면 생활이 아직도 낯선 코타. 하지만 의젓한 성격은 어디가지 않죠? 이번 파티에도 단 하나의 요소도 놓치지 않고 완벽히 준비하네요! 아마 지금 코타는 교통 체증까지 계산해서 움직이고 있을수도?",
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "istj-skill.png",
         "percentage": "14.7%",
@@ -166,7 +166,7 @@ var result = {
         "shleyz-description" : "오늘 확진자는 몇 명이고, 이 지역은 좀 위험한 거 같아!",
         "shleyz-type" : "태양신 코타",
         "mbti-type" : "ISTP",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#분석적 #백과사전 #논리적</b><br>객관적이고 사실적인 자료가 모든 상황의 근거다! 무분별하게 퍼져나가는 거짓 정보를 제일 싫어하는 만큼 코타는 파티에서도 팩트 체크 진행 중! 그래도 한 번씩은 친구들의 감성적인 이야기도 들어주세요 :o",
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "istp-skill.png",
         "percentage": "4.7%",
@@ -184,7 +184,7 @@ var result = {
         "shleyz-description" : "도와줄까? 내가 청소할까? 주문은? 뒷정리는?",
         "shleyz-type" : "우렁각시 코타",
         "mbti-type" : "ISFJ",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#헌신적 #협조적 #성실함</b><br>돈, 시간, 감정 등 쓸모 없는 낭비를 제일 싫어해요. 코타가 우렁각시가 되었다는 건 정말 소중한 사람이라는 뜻이겠죠? 하지만 이런 섬세한 코타도 표현이 서툴러 항상 관계를 걱정해요. 혹시 지금도 이번 파티에서 실수하진 않았을까 생각하고 있을수도?",
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "isfj-skill.png",
         "percentage": "3.8%",
@@ -202,7 +202,7 @@ var result = {
         "shleyz-description" : "방역수칙 지키면서 홈 파티도 잘 마무리했다! 그래도 집은 가야지.",
         "shleyz-type" : "의문의 인싸 코타",
         "mbti-type" : "ISFP",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#따뜻함 #성인군자 #겸손함</b><br>겉보기엔 조용하고 착한 아싸지만 친구들과 만나면 180도 변하는 숨겨진 인싸 코타. 특유의 유머 감각으로 코타의 주위에는 사람이 끊이질 않아요. 자신의 인싸력을 이해하지 못해 코타에게는 혼자만의 공간이 정말 소중해요!",
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "isfp-skill.png",
         "percentage": "5.9%",
@@ -220,7 +220,7 @@ var result = {
         "shleyz-description" : "음.. 집콕 라이프도 나쁘지 않은데? 굳이 모여야 하나?",
         "shleyz-type" : "자발적 아싸 람찌",
         "mbti-type" : "INTJ",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#의지 #과학자 #독립적</b><br>게임, 사교, 유흥 없이 혼자서도 알아서 잘 노는 람찌. 람찌에게 연락은 의무가 아닌 선택! 친구들 사이에서의 인기나 관심은 전혀 필요하지 않을지도 몰라요.",
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "intj-skill.png",
         "percentage": "5.5%",
@@ -238,7 +238,7 @@ var result = {
         "shleyz-description" : "훗! 다들 내 덕에 즐거워하네? 하.. 이 몸의 인기란~",
         "shleyz-type" : "자기애 폭발 람찌",
         "mbti-type" : "INTP",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#전략가 #나르시시스트 #호기심</b><br>이런 MBTI 유형 글로 자신을 알아가는 것을 정말 재밌어해요. 조용해 보이는 람찌지만, 관심 분야에는 정말 열정적이에요. 하지만 조금은 대중적이지 않은 분야라서 그럴까요? 생각만큼 람찌의 자기애를 감당하는 친구가 많지 않을지도 몰라요.",
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "intp-skill.png",
         "percentage": "4.3%",
@@ -256,7 +256,7 @@ var result = {
         "shleyz-description" : "흐음.. 혼자 집에 있기가 그리 어려운가? (이미 나갈 준비 완료)",
         "shleyz-type" : "겉바속촉 람찌",
         "mbti-type" : "INFJ",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#통찰력 #예언자 #공동체</b><br>호불호가 은근 심해 집에서 보내는 시간이 많은 람찌지만 친한 친구들과의 만남에서는 누구보다 적극적이에요. 감정기복이 크지 않은 탓에 친구들은 매번 람찌에게 '괜찮아? 재밌어? 진짜지?'라고 되묻지만 사실은 누구보다 찐으로 상황을 즐기고 있어요!",
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "infj-skill.png",
         "percentage": "3.8%",
@@ -274,9 +274,10 @@ var result = {
         "shleyz-description" : "집 안에서 만나니까 괜찮겠지? KF94 마스크 써야하나?",
         "shleyz-type" : "과대망상 람찌",
         "mbti-type" : "INFP",
-        "mbti-explain" : "설명 필요",
+        "mbti-explain" : "<b>#이상적 #잔다르트 #외유내강</b><br>다채로운 상상과 걱정이 넘쳐나는 람찌! 이 때문인지 주위의 시선을 많이 의식해 만나기 전에도, 만날 때도 항상 신경쓰이는 게 너무 많아요. 하지만 최악에서도 긍정적인 면을 바라본다는 것은 숨겨진 장점! 지금 람찌는 무슨 상상을 하고 있을까요?",
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "infp-skill.png",
+        "percentage": "6.5%",
         "good-mate" : "자기애 폭발 람찌",
         "bad-mate" : "관리 감독 베리빗",
         "good-mate-mbti" : "INTP",
