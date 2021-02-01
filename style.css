@@ -84,6 +84,7 @@ article {
     color: #C4C4C4;
     font-size: 20px;
     font-weight: bolder;
+    float: left;
 }
 
 /* 결과창에 대한 설정 */
