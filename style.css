@@ -62,6 +62,9 @@ article {
 }
 
 /* 버튼에 대한 설정 */
+#A {
+    margin-top: 75px;
+}
 .btn {
     background-color:#75D701;
     color: white;
