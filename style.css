@@ -120,6 +120,42 @@ article {
     /* color:  #4c4c4c; */
 }
 
+.content_wrap {
+    clear:both; 
+    display:block; 
+    overflow:hidden; 
+    margin:0 auto; 
+    font-size: 15px;            
+    line-height:130%;
+    height:100%;
+    min-height:10px;
+}
+
+.btn_more {            
+    display:block;
+    /* padding:37px 0 0 0; 
+    margin:30px 0 0 0; */
+    /* text-align:center;  */
+    font-size:15px; 
+    margin:0 auto;
+    color:#000;
+}
+
+/* 시놉시스 더보기 */
+.SynopsisText {
+    /* height: 77px; */
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+#synopMore{
+    color:#C4C4C4;
+}
+
 #percentage {
     font-size: 20px;
     font-weight: bolder;

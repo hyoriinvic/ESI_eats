@@ -92,12 +92,19 @@
         <h5 id="mbti-type" class="text-center mt-2">MBTI 유형</h5>
         <img id="result-img" class="rounded-circle mt-2" src="./image/shleyz.png" alt="result-image">
         <img id="skill-img" class="mt-2" src="./image/shleyz.png" alt="skill-image">
-        <div class="container-fluid mt-2">
-            <h5 id="mbti-explain" class="text-center mt-2">설명</h5>
+        <div class="container-fluid mt-4" style="width: 350px;">
+            <article class="content_wrap" id="synopsis">       
+                <div id="SynopsisDiv" class="SynopsisText mbti-explain">
+                    설명
+                </div>
+                <a href="javascript:showplay();" class="btn_more" id="synopMore">더보기</a>
+                <input name="hidTempSynopsis" type="hidden" id="hidTempSynopsis" value="0">
+            </article>
+            <!-- <h5 id="mbti-explain" class="text-center mt-2">설명</h5> -->
         </div>
 
         <!-- 같은 유형은 몇 % -->
-        <div class="card container-fluid text-center mt-5" style="width: 350px; height: 80px;">
+        <div class="card container-fluid text-center mt-2" style="width:350px; height: 80px;">
             <div class="mt-2">JKTI를 한 사람 중 나랑 같은 유형은?</div>
             <div id="percentage" class="mt-2">n%</div>
         </div>
@@ -215,7 +222,7 @@
                 $("#shleyz-type").html(result[mbti]["shleyz-type"]);
                 $("#shleyz-description").html(result[mbti]["shleyz-description"]);
                 $("#mbti-type").html(result[mbti]["mbti-type"]);
-                $("#mbti-explain").html(result[mbti]["mbti-explain"]);
+                $(".mbti-explain").html(result[mbti]["mbti-explain"]);
                 $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
                 $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
                 $("#percentage").html(result[mbti]["percentage"]);
@@ -229,6 +236,32 @@
             }   
         }
     </script>
+    <script>
+        //더보기 토글
+        function showplay() {
+            var flag = $('#hidTempSynopsis');
+            var SynopsisDiv = $('#SynopsisDiv');
+            var flagValue = flag.val();
+            if (flag != null) {
+                if (flagValue == "0") {
+                    /*SynopsisDiv.css("height", "auto");*/
+                    SynopsisDiv.css("font-size", "15px");
+                    SynopsisDiv.css("display", "block");
+                    $("#synopMore").text("닫기");
+                    flag.val("1");
+                }
+                else {
+                    //SynopsisDiv.css("height", "77px");
+                    SynopsisDiv.css("display", "-webkit-box");
+                    $("#synopMore").text("더보기");
+                    flag.val("0");
+                }
+            }
+            else {
+                alert("[더보기] 추가 정보가 없습니다.");
+            }
+        }
+        </script>
     <!-- addthis.com 으로 공유하기 기능 추가 -->
     <!-- Go to www.addthis.com/dashboard to customize your tools --> 
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60121e11d4bbe03e"></script>
