@@ -83,8 +83,8 @@ article {
     margin-left:auto;    
     color: #C4C4C4;
     font-size: 20px;
-    font-weight: bolder;
-    float: left;
+    /* float: left; */
+    flex: 1;
 }
 
 /* 결과창에 대한 설정 */
