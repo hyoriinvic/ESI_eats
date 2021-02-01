@@ -14,7 +14,7 @@ var result = {
         "bad-mate-mbti" : "INFP",
         "good-mate-img" : "EN.png",
         "bad-mate-img" : "IN.png",
-        "menu-description": "파티의 핵심은 메인 아닌가? 메인 메뉴의 꽃은 스테이크!",
+        "menu-description": "파티의 핵심은 메인! 메인 메뉴의 꽃은 스테이크지!",
         "menu-img":"",
         "menu-recommendation" : "<b>블랙킹 비프스테이크</b>"
     },
