@@ -65,13 +65,17 @@ article {
 .btn {
     background-color:#75D701;
     color: white;
-    height: 70px;
+    height: 75px;
     transition: background 0.8s;
 }
 
 .btn:hover, .btn:active {
     background:#75D701;
     color:white;
+}
+
+.btn-answer {
+    font-size: 20px;
 }
 
 /* 문제 진행 상황 보이도록 */
