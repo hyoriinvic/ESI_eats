@@ -96,10 +96,14 @@
             <h5 id="mbti-explain" class="text-center mt-2">설명</h5>
         </div>
 
-        <!--  -->
+        <!-- 같은 유형은 몇 % -->
+        <div class="card container-fluid text-center mt-5" style="width: 420px; height: 80px;">
+            <div class="mt-2">JKTI를 한 사람 중 나랑 같은 유형은?</div>
+            <div id="percentage" class="mt-2">n%</div>
+        </div>
         
         <!-- 환상/환장의 짝궁 이미지 추가 -->
-        <div class="recommendation mt-5">
+        <div class="recommendation mt-2">
             <div class="card" style="width: 210px;"> 
                 <div class="title text-center mt-2"><b>환상의 짝꿍</b></div>
                 <div class="inner" style="padding: 16px 16px 6px; height: 280px;">
@@ -214,6 +218,7 @@
                 $("#mbti-explain").html(result[mbti]["mbti-explain"]);
                 $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
                 $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
+                $("#percentage").html(result[mbti]["percentage"]);
                 $("#good-mate-mbti").html(result[mbti]["good-mate-mbti"]);
                 $("#bad-mate-mbti").html(result[mbti]["bad-mate-mbti"]);
                 $("#good-mate").html(result[mbti]["good-mate"]);

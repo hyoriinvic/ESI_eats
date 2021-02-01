@@ -7,6 +7,7 @@ var result = {
         "mbti-explain" : "현실적이고 구체적이며 활동을 조직화하고 주도해나가는 지도력을 가진 베리빗! 리더 역할을 딱히 선호하진 않지만 막상 맡으면 1등 리더감 쌉가능! 하지만 독창성과 창의력은 조금 부족할수도...?",
         "result-image" : "ES.png", // 각 유형별 이미지
         "skill-img" : "estj-skill.png",
+        "percentage": "10.7%",
         "good-mate" : "앵그리버드 오몽새",
         "bad-mate" : "과대망상 람찌",
         "good-mate-mbti" : "ENTJ",
@@ -22,6 +23,7 @@ var result = {
         "mbti-explain" : "오감으로 보고 듣고 만질 수 있는 삶의 모든 것을 즐기는 베리빗! 노는 것과 술 자리엔 도가 텄군요!",
         "result-image" : "ES.png" , // 각 유형별 이미지
         "skill-img" : "estp-skill.png",
+        "percentage": "3.5%",
         "good-mate" : "태양신 코타",
         "bad-mate" : "오지라퍼 오몽새",
         "good-mate-mbti" : "ISTP",
@@ -37,6 +39,7 @@ var result = {
         "mbti-explain" : "사회성이 풍부하고 정이 많은 베리빗. 하지만 정이 많은 만큼 인간 관계에서 큰 상처를 받으면 추락하기 쉬우니 주의해야 해요..",
         "result-image" : "ES.png", // 각 유형별 이미지
         "skill-img" : "esfj-skill.png",
+        "percentage": "6.6%",
         "good-mate" : "의문의 인싸 코타",
         "bad-mate" : "자기애 폭발 람찌",
         "good-mate-mbti" : "ISFP",
@@ -52,6 +55,7 @@ var result = {
         "mbti-explain" : "개성 넘치는 매력의 베리빗! 활동적이고 낙천적이며, 행복도도 가장 높아요! 통계적인 수치일 뿐이지만.. 평균적인 IQ가 낮다는 소문이 있다는데..?",
         "result-image" : "ES.png", // 각 유형별 이미지
         "skill-img" : "esfp-skill.png",
+        "percentage": "5.3%",
         "good-mate" : "원칙주의자 코타",
         "bad-mate" : "자발적 아싸 람찌",
         "good-mate-mbti" : "ISTJ",
@@ -67,6 +71,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
         "skill-img" : "entj-skill.png",
+        "percentage": "3.8%",
         "good-mate" : "말쌈닭 오몽새",
         "bad-mate" : "태양신 코타",
         "good-mate-mbti" : "ENTP",
@@ -82,6 +87,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
         "skill-img" : "entp-skill.png",
+        "percentage": "3.5%",
         "good-mate" : "겉바속촉 람찌",
         "bad-mate" : "우렁각시 코타",
         "good-mate-mbti" : "INFJ",
@@ -97,6 +103,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
         "skill-img" : "enfj-skill.png",
+        "percentage": "3.5%",
         "good-mate" : "과대망상 람찌",
         "bad-mate" : "원칙주의자 코타",
         "good-mate-mbti" : "INFP",
@@ -112,6 +119,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "EN.png", // 각 유형별 이미지
         "skill-img" : "enfp-skill.png",
+        "percentage": "8.4%",
         "good-mate" : "자발적 아싸 람찌",
         "bad-mate" : "불도저 베리빗",
         "good-mate-mbti" : "INTJ",
@@ -127,6 +135,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "istj-skill.png",
+        "percentage": "14.7%",
         "good-mate" : "사교계의 여왕 베리빗",
         "bad-mate" : "겉바속촉 람찌",
         "good-mate-mbti" : "ESFJ",
@@ -142,6 +151,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "istp-skill.png",
+        "percentage": "4.7%",
         "good-mate" : "불도저 베리빗",
         "bad-mate" : "말쌈닭 오몽새",
         "good-mate-mbti" : "ESTP",
@@ -157,6 +167,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "isfj-skill.png",
+        "percentage": "3.8%",
         "good-mate" : "연예인 베리빗",
         "bad-mate" : "긍정왕 오몽새",
         "good-mate-mbti" : "ESFP",
@@ -172,6 +183,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "isfp-skill.png",
+        "percentage": "5.9%",
         "good-mate" : "관리 감독 베리빗",
         "bad-mate" : "앵그리버드 오몽새",
         "good-mate-mbti" : "ESTJ",
@@ -187,6 +199,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "intj-skill.png",
+        "percentage": "5.5%",
         "good-mate" : "긍정왕 오몽새",
         "bad-mate" : "사교계의 여왕 베리빗",
         "good-mate-mbti" : "ENFP",
@@ -202,6 +215,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "intp-skill.png",
+        "percentage": "4.3%",
         "good-mate" : "오지라퍼 오몽새",
         "bad-mate" : "연예인 베리빗",
         "good-mate-mbti" : "ENFJ",
@@ -217,6 +231,7 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "infj-skill.png",
+        "percentage": "3.8%",
         "good-mate" : "우렁각시 코타",
         "bad-mate" : "의문의 인싸 코타",
         "good-mate-mbti" : "ISFJ",
