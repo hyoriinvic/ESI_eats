@@ -98,12 +98,12 @@ article {
 }
 
 #showing-result {
-    background-color:#75D701;
+    /* background-color:#75D701;
     color: white;
     height: 50px;
-    transition: background 0.8s;
-    font-size: 17.5px;
-    margin-bottom: 20px;
+    transition: background 0.8s; */
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 /* 결과창에 대한 설정 */
