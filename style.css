@@ -92,7 +92,7 @@ article {
     display: none;
 }
 
-#shleyz-type {
+.shleyz-type {
     color: #75D701;
     font-weight: bolder;
 }
@@ -192,6 +192,20 @@ article {
     height: 150px;
     margin: 0 auto; /* 가운데 배치 */
     margin-bottom: 10px;
+}
+
+.menu {
+    font-size: 17.5px;
+}
+
+#menu-img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; /* 가운데 배치 */
+}
+
+#menu-recommendation {
+    font-size: 20px;
 }
 
 /* 화면 하단의 공유하기 버튼 */

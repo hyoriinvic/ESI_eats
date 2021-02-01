@@ -89,7 +89,7 @@
     <!-- 결과 화면 -->
     <article class="result">
         <h5 id="shleyz-description" class="text-center mt-5">슐리즈 한 문장</h5>
-        <h2 id="shleyz-type" class="text-center mt-2"><b>슐리즈 타입</b></h2>
+        <h2 class="text-center mt-2 shleyz-type"><b>슐리즈 타입</b></h2>
         <h5 id="mbti-type" class="text-center mt-2">MBTI 유형</h5>
         <img id="result-img" class="rounded-circle mt-2" src="./image/shleyz.png" alt="result-image">
         <img id="skill-img" class="mt-2" src="./image/shleyz.png" alt="skill-image">
@@ -132,7 +132,12 @@
 
         <!-- 추천 메뉴 칸 -->
         <div class="card mt-2 container-fluid">
-            <h3 id="menu-recommendation" class="text-center mt-5">추천 메뉴</h3>
+            <div class="menu text-center mt-2">
+                <span class="shleyz-type"></span><span>에게 추천하는</span>
+            </div>
+            <div class="menu text-center">'애슐리 홈뷔페' 메뉴는?</div>
+            <img id="menu-img" class="mt-2" src="./image/shleyz.png" alt="menu-image">
+            <div id="menu-recommendation" class="text-center mt-2">추천 메뉴</div>
         </div>
         <!-- addthis.com 으로 공유하기 기능 추가 -->
         <!-- Go to www.addthis.com/dashboard to customize your tools --> 
@@ -220,7 +225,7 @@
                 ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
                 ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
 
-                $("#shleyz-type").html(result[mbti]["shleyz-type"]);
+                $(".shleyz-type").html(result[mbti]["shleyz-type"]);
                 $("#shleyz-description").html(result[mbti]["shleyz-description"]);
                 $("#mbti-type").html(result[mbti]["mbti-type"]);
                 $(".mbti-explain").html(result[mbti]["mbti-explain"]);
