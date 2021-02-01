@@ -16,6 +16,7 @@
         meta tag는 SEO를 통해 
         사이트 검색 시, 상단에 노출되도록 하기 위해 작성되었습니다.
     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="나의 집콕 유형을 MBTI를 기반으로 추천해주는 테스트입니다. -애슐리홈뷔페, 집콕유형검사, JKTI">
     <meta property="og:type" content="website"> 
     <meta property="og:title" content="집콕유형검사(JKTI)">
@@ -104,14 +105,14 @@
         </div>
 
         <!-- 같은 유형은 몇 % -->
-        <div class="card container-fluid text-center mt-3" style="width:350px; height: 80px;">
+        <div class="card container-fluid text-center mt-3" style="height: 80px;">
             <div class="mt-2">JKTI를 한 사람 중 나랑 같은 유형은?</div>
             <div id="percentage" class="mt-2">n%</div>
         </div>
         
         <!-- 환상/환장의 짝궁 이미지 추가 -->
-        <div class="recommendation mt-2">
-            <div class="card" style="width: 175px;"> 
+        <div class="recommendation mt-2 container-fluid row" >
+            <div class="card col"> 
                 <div class="title text-center mt-2"><b>환상의 짝꿍</b></div>
                 <div class="inner" style="padding: 16px 16px 6px; height: 250px;">
                     <div id="good-mate" class="type text-center">환상의 짝꿍</div>
@@ -119,7 +120,7 @@
                     <img id="good-mate-img" class="img-fluid rounded mx-auto d-block mt-2" src="./image/shleyz.png" alt="good-mate-img">
                 </div>
             </div>
-            <div id="bad-mate-card" class="card" style="width: 175px;"> 
+            <div id="bad-mate-card" class="card col"> 
                 <div class="title text-center mt-2"><b>환장의 짝꿍</b></div>
                 <div class="inner" style="padding: 16px 16px 6px; height: 250px;">
                     <div id="bad-mate" class="type text-center">환장의 짝꿍</div>
