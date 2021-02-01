@@ -17,10 +17,10 @@
         사이트 검색 시, 상단에 노출되도록 하기 위해 작성되었습니다.
     -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="나의 집콕 유형을 MBTI를 기반으로 추천해주는 테스트입니다. -애슐리홈뷔페, 집콕유형검사, JKTI">
+    <meta name="description" content="나의 홈파티 유형을 MBTI를 기반으로 파악한 후 메뉴를 추천해주는 테스트입니다. -애슐리홈뷔페, 집콕유형검사, JKTI">
     <meta property="og:type" content="website"> 
-    <meta property="og:title" content="집콕유형검사(JKTI)">
-    <meta property="og:description" content="#jkti #집콕유형검사 #애슐리홈뷔페 #애슐리딜리버리">
+    <meta property="og:title" content="홈파티유형검사(HPTI)">
+    <meta property="og:description" content="#HPTI #홈파티유형검사 #애슐리홈뷔페 #애슐리딜리버리">
     <meta property="og:image" content="https://jkti.netlify.app/myimage.jpg"> <!-- 이미지 변경 필요 -->
     <meta property="og:url" content="https://jkti.netlify.app/">
     <!-- html을 꾸며주는 파일 -->
@@ -38,8 +38,8 @@
     <article class="start">
         <!-- 제목 입력 -->
         <div>
-            <h1 id="test-name" class="mt-5 text-center"><b>집콕유형검사<br>JKTI</b></h1>
-            <h5 id="opening-text" class="mt-5 text-center">슐리즈와 함께하는 방구석 파티로 <br>여러분의 집콕생활유형을 검사해보세요!</h5>
+            <h1 id="test-name" class="mt-5 text-center"><b>홈파티유형검사<br>HPTI</b></h1>
+            <h5 id="opening-text" class="mt-5 text-center">슐리즈와 함께 본인의 홈파티유형을 확인하고<br>나와 맞는 메뉴도 추천 받으세요!</h5>
         </div>
         <img id="opening-family-img" class="img-fluid rounded mx-auto d-block mt-5" src="./image/opening-family.PNG" alt="opening-family">
         <button id="start-btn" type="button" class="btn btn-start mt-5" onclick="start();">테스트 시작하기</button>
@@ -131,13 +131,14 @@
         </div>  
 
         <!-- 추천 메뉴 칸 -->
-        <div class="menu-recommendation mt-2 container-fluid text-center">
+        <div class="menu-recommendation mt-5 container-fluid text-center">
             <div class="menu mt-2">
                 <span class="shleyz-type"></span><span>에게 추천하는</span>
             </div>
             <div class="menu">'애슐리 홈뷔페' 메뉴는?</div>
-            <img id="menu-img" class="mt-2" src="./image/shleyz.png" alt="menu-image">
             <div id="buffet-menu" class="mt-2">추천 메뉴</div>
+            <img id="menu-img" class="mt-2" src="./image/shleyz.png" alt="menu-image">
+            <div id="menu-description" class="text-center mt-2">메뉴 설명</div>
         </div>
         <!-- addthis.com 으로 공유하기 기능 추가 -->
         <!-- Go to www.addthis.com/dashboard to customize your tools --> 
@@ -238,7 +239,8 @@
                 $("#bad-mate").html(result[mbti]["bad-mate"]);
                 $("#good-mate-img").attr("src", "image/"+result[mbti]["good-mate-img"]);
                 $("#bad-mate-img").attr("src", "image/"+result[mbti]["bad-mate-img"]);
-                $("#menu-recommendation").html(result[mbti]["menu-recommendation"]);
+                $("#buffet-menu").html(result[mbti]["menu-recommendation"]);
+                $("#menu-description").html(result[mbti]["menu-description"]);
             }   
         }
     </script>

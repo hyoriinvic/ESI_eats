@@ -14,7 +14,9 @@ var result = {
         "bad-mate-mbti" : "INFP",
         "good-mate-img" : "EN.png",
         "bad-mate-img" : "IN.png",
-        "menu-recommendation" : "애슐리 버라이어티팩"
+        "menu-description": "파티의 핵심은 메인 아닌가? 메인 메뉴의 꽃은 스테이크!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>블랙킹 비프스테이크</b>"
     },
     "ESTP" : {
         "shleyz-description" : "그래도 놀 땐 확실하게 놀아야지!",
@@ -30,7 +32,9 @@ var result = {
         "bad-mate-mbti" : "ENFJ",
         "good-mate-img" : "IS.png",
         "bad-mate-img" : "EN.png",
-        "menu-recommendation" : "홈뷔페 프리미엄 그릴 SET"
+        "menu-description": "다양한 걸 시도하기 좋아하는 당신! 그렇다고 본인만 만족하는 건 싫다! 구성원 모두 만족할 바로 이 메뉴!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>홈뷔페 패밀리 세트</b>"
     },
     "ESFJ" : {
         "shleyz-description" : "못 볼 땐 온라인으로라도 만나자!",
@@ -46,7 +50,9 @@ var result = {
         "bad-mate-mbti" : "INTP",
         "good-mate-img" : "IS.png",
         "bad-mate-img" : "IN.png",
-        "menu-recommendation" : "딸기 버라이어티팩"
+        "menu-description": "홈파티에 참여한 모든 사람들이 행복하게 파티와 음식을 즐겼으면 하는 당신을 위한 메뉴!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>홈뷔페 프리미엄 그릴세트</b>"
     },
     "ESFP" : {
         "shleyz-description" : "화려한 조명은 나를 감싸라고!",
@@ -62,7 +68,9 @@ var result = {
         "bad-mate-mbti" : "INTJ",
         "good-mate-img" : "IS.png",
         "bad-mate-img" : "IN.png",
-        "menu-recommendation" : "딸기 버라이어티팩"
+        "menu-description": "어디서든 스포트라이트가 당신에게 비추이길 원하는 당신을 위한 메인 메뉴!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>자이언트 글레이즈 폭립</b>"
     },
     "ENTJ" : {
         "shleyz-description" : "않!이! 코로나 외.않.끝.나? 화가 난다!",
@@ -78,7 +86,9 @@ var result = {
         "bad-mate-mbti" : "ISTP",
         "good-mate-img" : "EN.png",
         "bad-mate-img" : "IS.png",
-        "menu-recommendation" : "비어 버라이어티팩"
+        "menu-description": "어디서나 활기 넘치게 자신을 주장하고 의견을 펴리는 당신! 그런 당신에겐 어울리는 시원~한 맥주 한 잔!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>비어 버라이어티팩</b>"
     },
     "ENTP" : {
         "shleyz-description" : "코로나 딱 대! 넌 틀렸어. 내가 증명할테니 잘 들어.",
@@ -94,7 +104,9 @@ var result = {
         "bad-mate-mbti" : "ISFJ",
         "good-mate-img" : "IN.png",
         "bad-mate-img" : "IS.png",
-        "menu-recommendation" : "자이언트 글레이즈드 폭립"
+        "menu-description": "매사에 자기 주장이 분명하고 합리적인 선택을 좋아하는 당신! 그런 당신에게 딱 어울리는 메뉴!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>비프 스테이크 파스타</b>"
     },
     "ENFJ" : {
         "shleyz-description" : "마스크 했지? 냄새 잘 맡지? 소독 잘했지?",
@@ -110,7 +122,9 @@ var result = {
         "bad-mate-mbti" : "ISTJ",
         "good-mate-img" : "IS.png",
         "bad-mate-img" : "IN.png",
-        "menu-recommendation" : "애슐리 홈 뷔페"
+        "menu-description": "이 사람 의견도 들어주고 싶고 저 사람 의견도 들어주고 싶고 갈팡질팡 하기 쉬운 당신을 위한 메뉴!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>애슐리 버라이어티팩</b>"
     },
     "ENFP" : {
         "shleyz-description" : "그래도 친구들 얼굴도 보고~ 홈파티도 하고~",
@@ -126,7 +140,9 @@ var result = {
         "bad-mate-mbti" : "ESTP",
         "good-mate-img" : "IN.png",
         "bad-mate-img" : "ES.png",
-        "menu-recommendation" : "애슐리 홈 뷔페"
+        "menu-description": "이것도 좋고 저것도 좋고 무엇이든 긍정적인 자세로 받아들이는 당신을 위한 조금 특별한 제안!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>키즈 버라이어티팩</b>"
     },
     "ISTJ" : {
         "shleyz-description" : "파티 하나를 하더라도 컨셉, 플레이팅 모두 놓칠 수 없지!",
@@ -142,7 +158,9 @@ var result = {
         "bad-mate-mbti" : "INFJ",
         "good-mate-img" : "ES.png",
         "bad-mate-img" : "IN.png",
-        "menu-recommendation" : "홈뷔페 패밀리 SET"
+        "menu-description": "홈파티에도 원칙이 있고 매뉴얼이 있는 당신에게 홈파티에 절대 빠질 수 없는 메뉴를!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>시그니처 그릴세트</b>"
     },
     "ISTP" : {
         "shleyz-description" : "오늘 확진자는 몇 명이고, 이 지역은 좀 위험한 거 같아!",
@@ -152,13 +170,15 @@ var result = {
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "istp-skill.png",
         "percentage": "4.7%",
-        "good-mate" : "불도저<br>베리빗",
-        "bad-mate" : "말쌈닭<br>오몽새",
+        "good-mate" : "불도저 베리빗",
+        "bad-mate" : "말쌈닭 오몽새",
         "good-mate-mbti" : "ESTP",
         "bad-mate-mbti" : "ENTP",
         "good-mate-img" : "ES.png",
         "bad-mate-img" : "EN.png",
-        "menu-recommendation" : "그린팜 버라이어티팩"
+        "menu-description": "홈파티 속에서도 건강을 위한 균형잡힌 식단을 원하는 당신에게!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>그린팜 버라이어티팩</b>"
     },
     "ISFJ" : {
         "shleyz-description" : "도와줄까? 내가 청소할까? 주문은? 뒷정리는?",
@@ -168,13 +188,15 @@ var result = {
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "isfj-skill.png",
         "percentage": "3.8%",
-        "good-mate" : "연예인<br>베리빗",
-        "bad-mate" : "긍정왕<br>오몽새",
+        "good-mate" : "연예인 베리빗",
+        "bad-mate" : "긍정왕 오몽새",
         "good-mate-mbti" : "ESFP",
         "bad-mate-mbti" : "ENFP",
         "good-mate-img" : "ES.png",
         "bad-mate-img" : "EN.png",
-        "menu-recommendation" : "애슐리 홈 뷔페"
+        "menu-description": "모든 사람들을 위하려는 당신! 하지만 돈 계산은 철두철미하게 하고자 하는 당신에게 딱 맞는 가성비 메뉴!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>시그니처 파스타 세트</b>"
     },
     "ISFP" : {
         "shleyz-description" : "방역수칙 지키면서 홈 파티도 잘 마무리했다! 그래도 집은 가야지.",
@@ -184,13 +206,15 @@ var result = {
         "result-image" : "IS.png", // 각 유형별 이미지
         "skill-img" : "isfp-skill.png",
         "percentage": "5.9%",
-        "good-mate" : "관리 감독<br>베리빗",
-        "bad-mate" : "앵그리버드<br>오몽새",
+        "good-mate" : "관리 감독 베리빗",
+        "bad-mate" : "앵그리버드 오몽새",
         "good-mate-mbti" : "ESTJ",
         "bad-mate-mbti" : "ENTJ",
         "good-mate-img" : "ES.png",
         "bad-mate-img" : "EN.png",
-        "menu-recommendation" : "딸기 버라이어티팩"
+        "menu-description": "자신이 인싸인 이유를 모르는 당신처럼 나도 모르게 사람들을 또 감동시킬 수 있는",
+        "menu-img":"",
+        "menu-recommendation" : "<b>딸기 버라이어티팩</b>"
     },
     "INTJ" : {
         "shleyz-description" : "음.. 집콕 라이프도 나쁘지 않은데? 굳이 모여야 하나?",
@@ -200,13 +224,15 @@ var result = {
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "intj-skill.png",
         "percentage": "5.5%",
-        "good-mate" : "긍정왕<br>오몽새",
-        "bad-mate" : "사교계 여왕<br>베리빗",
+        "good-mate" : "긍정왕 오몽새",
+        "bad-mate" : "사교계의 여왕 베리빗",
         "good-mate-mbti" : "ENFP",
         "bad-mate-mbti" : "ESFJ",
         "good-mate-img" : "EN.png",
         "bad-mate-img" : "ES.png",
-        "menu-recommendation" : "시그니처 파스타 SET"
+        "menu-description": "혼자서도 뭐든 잘하는 당신. 그런 당신에게 딱 맞는 애슐리 홈뷔페의 미(美)미(味)",
+        "menu-img":"",
+        "menu-recommendation" : "<b>얌얌게살필라프</b>"
     },
     "INTP" : {
         "shleyz-description" : "훗! 다들 내 덕에 즐거워하네? 하.. 이 몸의 인기란~",
@@ -216,13 +242,15 @@ var result = {
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "intp-skill.png",
         "percentage": "4.3%",
-        "good-mate" : "오지라퍼<br>오몽새",
-        "bad-mate" : "연예인<br>베리빗",
+        "good-mate" : "오지라퍼 오몽새",
+        "bad-mate" : "연예인 베리빗",
         "good-mate-mbti" : "ENFJ",
         "bad-mate-mbti" : "ESFP",
         "good-mate-img" : "EN.png",
         "bad-mate-img" : "ES.png",
-        "menu-recommendation" : "시그니처 그릴 SET"
+        "menu-description": "누구보다 자기 자신을 사랑하는 당신이지만 이번 만큼은 사랑하는 사람과 함께 즐기기를!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>시그니처 커플세트</b>"
     },
     "INFJ" : {
         "shleyz-description" : "흐음.. 혼자 집에 있기가 그리 어려운가? (이미 나갈 준비 완료)",
@@ -232,13 +260,15 @@ var result = {
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "infj-skill.png",
         "percentage": "3.8%",
-        "good-mate" : "우렁각시<br>코타",
-        "bad-mate" : "의문의 인싸<br>코타",
+        "good-mate" : "우렁각시 코타",
+        "bad-mate" : "의문의 인싸 코타",
         "good-mate-mbti" : "ISFJ",
         "bad-mate-mbti" : "ISFP",
         "good-mate-img" : "IS.png",
         "bad-mate-img" : "IS.png",
-        "menu-recommendation" : "키즈 버라이어티팩"
+        "menu-description": "겉은 바삭하고 속은 촉촉한 당신에게 안성 맞춤!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>베이컨크림 빠네파스타</b>"
     },
     "INFP" : {
         "shleyz-description" : "집 안에서 만나니까 괜찮겠지? KF94 마스크 써야하나?",
@@ -247,12 +277,14 @@ var result = {
         "mbti-explain" : "설명 필요",
         "result-image" : "IN.png", // 각 유형별 이미지
         "skill-img" : "infp-skill.png",
-        "good-mate" : "자기애 폭발<br>람찌",
-        "bad-mate" : "관리 감독<br>베리빗",
+        "good-mate" : "자기애 폭발 람찌",
+        "bad-mate" : "관리 감독 베리빗",
         "good-mate-mbti" : "INTP",
         "bad-mate-mbti" : "ESTJ",
         "good-mate-img" : "IN.png",
         "bad-mate-img" : "ES.png",
-        "menu-recommendation" : "애슐리 홈 뷔페"
+        "menu-description": "이건 맛있을까? 저건 맛없을까? 이래저래 고민이 많은 당신에게. 고민이 필요 없이 맛있는 메뉴!",
+        "menu-img":"",
+        "menu-recommendation" : "<b>목살 스테이크</b>"
     }
 }
