@@ -194,17 +194,20 @@ article {
     margin-bottom: 10px;
 }
 
+.menu-recommendation {
+    margin: 0 auto;
+}
 .menu {
     font-size: 17.5px;
 }
 
 #menu-img{
+    margin: 0 auto; /* 가운데 배치 */
     width: 150px;
     height: 150px;
-    margin: 0 auto; /* 가운데 배치 */
 }
 
-#menu-recommendation {
+#buffet-menu {
     font-size: 20px;
 }
 
