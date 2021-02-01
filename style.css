@@ -87,6 +87,19 @@ article {
     flex: 1;
 }
 
+.before-result{
+    display:none;
+}
+
+#showing-result {
+    background-color:#75D701;
+    color: white;
+    height: 50px;
+    transition: background 0.8s;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
 /* 결과창에 대한 설정 */
 .result {
     display: none;
@@ -239,4 +252,9 @@ article {
 
 .add-banner-img {
     width: 300px;
+}
+
+.copyright {
+    font-size: 10px;
+    color:#C4C4C4;
 }

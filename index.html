@@ -71,19 +71,10 @@
         <!-- </div> -->
     </article>
 
-    <!-- calculating bar 설정 -->
-    <!-- <article id="calc">
-        <div class="calc-bar">
-            CALCULATING
-            <div class="calc"></div>
-        </div>
-        <p class="wait">잠시 기다려주세요...</p>
-    </article> -->
-
-    <article class="calc">
-        <div class="calc-progress">
-            <div class="bar shadow food"></div>
-        </div>
+    <!-- 테스트 결과 확인하기 버튼 추가 -->
+    <article class="before-result mt-5">
+        <img id="before-result-img" src="./image/shleyz.png" alt="before-result-image">
+        <button id="showing-result" type="button" class="btn btn-result mt-5">테스트 결과 확인하기</button>
     </article>
 
     <!-- 결과 화면 -->
@@ -147,6 +138,12 @@
         <div class="share addthis_inline_share_toolbox mt-5"></div>
         <button id="retest" type="button" class="btn btn-retest mt-5" onclick="location.href='https://home-party.netlify.app/';">테스트 다시하기</button>
 
+        <footer class="text-center mt-5">
+            <div>
+                <span class="copyright">Copyright 2020 Ashley Home Buffet. all rights reserved</span>
+            </div>
+        </footer>
+
         <!-- 이미지와 링크가 있다면 외부 광고 또한 추가 가능 
             href: 연결될 링크 
         -->
@@ -206,44 +203,36 @@
             // 문항이 12개니까, 마지막 문제에 도달하면
             if (num==13){
                 $(".question").hide();
-                // $(".calc").show();
+                $(".before-result").show();
 
-                // bars.forEach((bar, index) => {
-                //     // const randomWidth = Math.floor((Math.random() * 65) + 10);
-                //     // bar.style.width = `${randomWidth}%`;
-                //     progress[index].addEventListener('mouseover', () => {
-                //         const randomTiming = Math.floor((Math.random() * 2) + 2);
-                //         bar.style.transitionDuration = `${randomTiming}s`;
-                //         bar.style.width = '100%';
-                //     });
-                // })
+                $("#showing-result").click(function() {
+                    $(".before-result").hide();
+                    $(".result").show();
 
-                // $(".calc").hide();
-                $(".result").show();
+                    // 최종 MBTI 구하기
+                    var mbti = "";
 
-                // 최종 MBTI 구하기
-                var mbti = "";
+                    ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";
+                    ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
+                    ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
+                    ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
 
-                ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";
-                ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
-                ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
-                ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
-
-                $(".shleyz-type").html(result[mbti]["shleyz-type"]);
-                $("#shleyz-description").html(result[mbti]["shleyz-description"]);
-                $("#mbti-type").html(result[mbti]["mbti-type"]);
-                $(".mbti-explain").html(result[mbti]["mbti-explain"]);
-                $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
-                $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
-                $("#percentage").html(result[mbti]["percentage"]);
-                $("#good-mate-mbti").html(result[mbti]["good-mate-mbti"]);
-                $("#bad-mate-mbti").html(result[mbti]["bad-mate-mbti"]);
-                $("#good-mate").html(result[mbti]["good-mate"]);
-                $("#bad-mate").html(result[mbti]["bad-mate"]);
-                $("#good-mate-img").attr("src", "image/"+result[mbti]["good-mate-img"]);
-                $("#bad-mate-img").attr("src", "image/"+result[mbti]["bad-mate-img"]);
-                $("#buffet-menu").html(result[mbti]["menu-recommendation"]);
-                $("#menu-description").html(result[mbti]["menu-description"]);
+                    $(".shleyz-type").html(result[mbti]["shleyz-type"]);
+                    $("#shleyz-description").html(result[mbti]["shleyz-description"]);
+                    $("#mbti-type").html(result[mbti]["mbti-type"]);
+                    $(".mbti-explain").html(result[mbti]["mbti-explain"]);
+                    $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
+                    $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
+                    $("#percentage").html(result[mbti]["percentage"]);
+                    $("#good-mate-mbti").html(result[mbti]["good-mate-mbti"]);
+                    $("#bad-mate-mbti").html(result[mbti]["bad-mate-mbti"]);
+                    $("#good-mate").html(result[mbti]["good-mate"]);
+                    $("#bad-mate").html(result[mbti]["bad-mate"]);
+                    $("#good-mate-img").attr("src", "image/"+result[mbti]["good-mate-img"]);
+                    $("#bad-mate-img").attr("src", "image/"+result[mbti]["bad-mate-img"]);
+                    $("#buffet-menu").html(result[mbti]["menu-recommendation"]);
+                    $("#menu-description").html(result[mbti]["menu-description"]);
+                })
             }   
         }
     </script>
