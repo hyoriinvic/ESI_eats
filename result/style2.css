@@ -37,6 +37,11 @@ article {
     color:white;
 }
 
+#logo-img {
+    width: 120px;
+    height: 40px;
+    margin: 0 auto; /* 가운데 배치 */
+}
 
 /* 결과창에 대한 설정 */
 .shleyz-type {
