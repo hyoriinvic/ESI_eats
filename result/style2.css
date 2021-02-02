@@ -50,8 +50,8 @@ article {
 
 /* 결과창에 들어가는 유형별 이미지 */
 #result-img {
-    width: 250px;
-    height: 250px;
+    width: 225px;
+    height: 225px;
     margin: 0 auto; /* 가운데 배치 */
 }
 
