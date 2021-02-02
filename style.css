@@ -237,15 +237,19 @@ article {
     color: white;
     font-size: 15px;
     font-weight:bolder;
+    width: 120px;
+    height: 60px;
 }
 
 #yogiyo {
     background-color: #d91022;
+    /* float: left; */
 }
 
 #baemin {
     background-color: #00c9d2;
     font-family: 'Hanna';
+    /* display: inline-block; */
 }
 
 /* 화면 하단의 공유하기 버튼 */
