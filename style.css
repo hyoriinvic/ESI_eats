@@ -200,15 +200,15 @@ article {
 }
 
 #good-mate-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     margin-bottom: 10px; /* 가운데 배치 */
 }
 
 #bad-mate-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto; /* 가운데 배치 */
     margin-bottom: 10px;
 }
