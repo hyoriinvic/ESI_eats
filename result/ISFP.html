@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eland ESI">
+    <!-- 네이버에서 웹이 검색되도록  -->
+    <!-- https://searchadvisor.naver.com/ 사용 -->
+    <!-- 기타 필요한 설정 완료: 1-2일 뒤 사이트 검색을 통한 접속 가능 -->
+    <meta name="naver-site-verification" content="43edffdd20a89f74c78e136351ae03d6efa517d4" />
+    <title>홈파티 유형검사, HPTI</title>
+    <!-- 
+        meta tag는 SEO를 통해 
+        사이트 검색 시, 상단에 노출되도록 하기 위해 작성되었습니다.
+    -->
+    <meta name="description" content="나의 홈파티 유형을 MBTI를 기반으로 파악한 후 메뉴를 추천해주는 테스트입니다. -애슐리홈뷔페, 집콕유형검사, JKTI">
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="홈파티유형검사(HPTI)">
+    <meta property="og:description" content="#HPTI #홈파티유형검사 #애슐리홈뷔페 #애슐리딜리버리">
+    <meta property="og:image" content="./image/for-share.jpg"> <!-- 이미지 변경 필요 -->
+    <meta property="og:url" content="https://home-party.netlify.app/">
+    <!-- html을 꾸며주는 파일 -->
+    <!-- 편리성 도모를 위해 getbootstrap.com 활용 - cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">     
+    <!-- <link rel="stylesheet" href="animation.css"> -->
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+
+<body class="container">
+    <!-- 결과 화면 -->
+    <article class="result">
+        <h5 id="shleyz-description" class="text-center mt-5">방역수칙 지키면서 홈 파티도 잘 마무리했다! 그래도 집은 가야지.</h5>
+        <h2 class="text-center mt-2 shleyz-type"><b>의문의 인싸 코타</b></h2>
+        <h5 id="mbti-type" class="text-center mt-2">ISFP</h5>
+        <img id="result-img" class="rounded-circle mt-2" src="./image/isfp.jpg" alt="result-image">
+        <img id="skill-img" class="mt-2" src="./image/isfp-skill.png" alt="skill-image">
+        <div class="container-fluid mt-4" style="width: 350px;">
+            <article class="content_wrap" id="synopsis">       
+                <div id="SynopsisDiv" class="SynopsisText mbti-explain">
+                    <b>#마더혜레사 #평화주의자개복치 #마음만은압구정날라리</b><br>겉보기엔 조용하고 착한 아싸지만 친구들과 함께하면 180도 변하는 숨겨진 인싸! 특유의 유머 감각으로 주위에 항상 사람이 끊이질 않아요. 또한, 자신의 의견을 타인에게 강요하지 않으며, 의견 충돌을 싫어해요. 남들이 볼 때는 포용력이 넓은 것처럼 보이지만, 사실 자신의 의견을 명확하게 관철시키지 않는 것일 뿐! 개인주의적인 성향도 강해 홈 파티를 하더라도 집은 꼭 가야 돼요! 하지만 그렇다고 만남이 재미없는 건 또 아니지만 종종 오해를 사기도 하죠. 알면 알수록 진국인 당신은 홈 파티에 없어서는 안 될 우리들만의 스타죠! ^_< 
+                </div>
+                <a href="javascript:showplay();" class="btn_more" id="synopMore">더보기</a>
+                <input name="hidTempSynopsis" type="hidden" id="hidTempSynopsis" value="0">
+            </article>
+            <!-- <h5 id="mbti-explain" class="text-center mt-2">설명</h5> -->
+        </div>
+
+        <!-- 같은 유형은 몇 % -->
+        <div class="container-fluid text-center mt-3" style="height: 80px;">
+            <div class="mt-2"><b>HPTI를 한 사람 중 나랑 같은 유형은?</b></div>
+            <div id="percentage" class="mt-2">5.9%</div>
+        </div>
+        
+        <!-- 환상/환장의 짝궁 이미지 추가 -->
+        <div class="recommendation mt-2 container-fluid row" >
+            <div id="good-mate-card" class="col card"> 
+                <div class="title text-center mt-2"><b>환상의 짝꿍</b></div>
+                <div class="inner" style="padding: 16px 16px 6px; height: 270px;">
+                    <div id="good-mate" class="type text-center">관리 감독<br>베리빗</div>
+                    <div id="good-mate-mbti" class="mate-mbti type text-center">ESTJ</div>
+                    <img id="good-mate-img" class="img-fluid rounded mx-auto d-block mt-2" src="./image/estj.jpg" alt="good-mate-img">
+                </div>
+            </div>
+            <div id="bad-mate-card" class="col card"> 
+                <div class="title text-center mt-2"><b>환장의 짝꿍</b></div>
+                <div class="inner" style="padding: 16px 16px 6px; height: 270px;">
+                    <div id="bad-mate" class="type text-center">앵그리버드<br>오몽새</div>
+                    <div id="bad-mate-mbti" class="mate-mbti type text-center">ENTJ</div>
+                    <img id="bad-mate-img" class="img-fluid rounded mx-auto d-block mt-2" src="./image/entj.jpg" alt="bad-mate-img">
+                </div>
+            </div>
+        </div>  
+
+        <!-- 추천 메뉴 칸 -->
+        <div class="menu-recommendation mt-5 container-fluid text-center">
+            <div class="menu mt-2">
+                <span class="shleyz-type">의문의 인싸 코타</span><span>에게 추천하는</span>
+            </div>
+            <div class="menu">'애슐리 홈뷔페' 메뉴는?</div>
+            <div class="menu-name">
+                <span><b>< </b></span><span id="buffet-menu" class="mt-2"><b>딸기 버라이어티팩</b></span><span><b> ></b></span>
+            </div>
+            <img id="menu-img" class="mt-2" src="./image/v7.jpg" alt="menu-image">
+            <div id="menu-description" class="text-center mt-2">자신이 인싸인 이유는 모르지만, 자신도 모르게 또 사람들을 감동시키는 메뉴!</div>
+            <div class="add-body mt-2">
+                <span>지금 </span><span class="add"><b></b>애슐리 홈뷔페</b></span><span> 주문하면</span>
+                <img class="add-banner-img mt-2" src="image/세로형_이벤트.jpg" onclick="location.href='https://www.baemin.com/';" target="_blank" alt="banner">
+            </div>
+            <div><span class="add-sub text-center">이미지 클릭 시 배달의 민족으로 이동됩니다.</span></div>
+            <!-- <button id="yogiyo" type="button" class="btn btn-delivery mt-5" onclick="location.href='https://www.yogiyo.co.kr/';" target="_blank">요기요<br>주문하기</button>
+            <button id="baemin" type="button" class="btn btn-delivery mt-5" onclick="location.href='https://www.baemin.com/';" target="_blank">배달의민족<br>주문하기</button>     -->
+        </div>
+
+        <div class="share addthis_inline_share_toolbox mt-5"></div>
+        <button id="retest" type="button" class="btn btn-retest mt-5" onclick="location.href='https://home-party.netlify.app/';">테스트 다시하기</button>
+        <img id="logo-img" class="mt-2" src="./image/logo.jpg" alt="ashley-logo">
+
+        <footer class="text-center mt-2">    
+            <div><span class="copyright">Copyright 2021 Ashley Home Buffet. all rights reserved</span></div>
+        </footer>
+    </article>
+
+    <!-- 자바 스크립트 -->
+    <script type="text/javascript" src="./js/result.js"></script>
+    <script>
+        //더보기 토글
+        function showplay() {
+            var flag = $('#hidTempSynopsis');
+            var SynopsisDiv = $('#SynopsisDiv');
+            var flagValue = flag.val();
+            if (flag != null) {
+                if (flagValue == "0") {
+                    /*SynopsisDiv.css("height", "auto");*/
+                    SynopsisDiv.css("font-size", "15px");
+                    SynopsisDiv.css("display", "block");
+                    $("#synopMore").text("닫기");
+                    flag.val("1");
+                }
+                else {
+                    //SynopsisDiv.css("height", "77px");
+                    SynopsisDiv.css("display", "-webkit-box");
+                    $("#synopMore").text("더보기");
+                    flag.val("0");
+                }
+            }
+            else {
+                alert("[더보기] 추가 정보가 없습니다.");
+            }
+        }
+    </script>
+
+    <!-- addthis.com 으로 공유하기 기능 추가 -->
+    <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60121e11d4bbe03e"></script>
+</body>
+</html>
