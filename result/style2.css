@@ -150,8 +150,8 @@ article {
 
 #menu-img{
     margin: 0 auto; 
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 
 #menu-name {
@@ -181,6 +181,29 @@ article {
     /* display: inline-block; */
 }
 
+
+
+/* 광고용 배너 및 이미지 설정 */
+.add-body{
+    font-size: 17.5px;
+}
+
+.add{
+    font-weight: bolder;
+    color: #fdaf31;
+}
+
+.add-banner {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.add-banner-img {
+    width: 300px;
+}
+
 /* 화면 하단의 공유하기 버튼 */
 .share {
     margin: 0 auto;
@@ -194,18 +217,6 @@ article {
     font-size: 15px;
     font-weight:bolder;
     margin-bottom: 20px;
-}
-
-/* 광고용 배너 및 이미지 설정 */
-.add-banner {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    margin: 0 auto;
-}
-
-.add-banner-img {
-    width: 300px;
 }
 
 .copyright {
