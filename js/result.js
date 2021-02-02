@@ -17,7 +17,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "파티에서 메인 메뉴가 빠질 수 없죠! 메인의 꽃, 스테이크!",
-        "menu-img":"그릴3_블랙킹스테이크.jpg",
+        "menu-img":"grill3.jpg",
         "menu-recommendation" : "<b>블랙킹 비프스테이크</b>"
     },
     "ESTP" : {
@@ -37,7 +37,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "오감과 삶의 모든 것을 즐기지만, 나만 만족하는 건 NOPE! 구성원 모두가 만족할 바로 이 메뉴!",
-        "menu-img":"세트4_홈뷔페 패밀리 그릴세트.jpg",
+        "menu-img":"set4.jpg",
         "menu-recommendation" : "<b>홈뷔페 패밀리 세트</b>"
     },
     "ESFJ" : {
@@ -57,7 +57,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "홈 파티의 모두가 행복하게 음식을 즐기길 바라는 당신을 위한 메뉴!",
-        "menu-img":"세트5_홈뷔페 프리미엄 그릴세트.jpg",
+        "menu-img":"set5.jpg",
         "menu-recommendation" : "<b>홈뷔페 프리미엄 그릴세트</b>"
     },
     "ESFP" : {
@@ -77,7 +77,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "어디서든 스포트라이트가 비춰지는 당신을 위한 특별한 메인 메뉴!",
-        "menu-img":"그릴2_자이언트글레이즈폭립.jpg",
+        "menu-img":"grill2.jpg",
         "menu-recommendation" : "<b>자이언트 글레이즈 폭립</b>"
     },
     "ENTJ" : {
@@ -97,7 +97,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "어디서나 솔직하고 당당하게 자신의 의견을 표현하는 당신! 그런 당신에겐 어울리는 시원한 맥주 한 잔!",
-        "menu-img":"V5_배민_비어 버라이어티팩.jpg",
+        "menu-img":"v5.jpg",
         "menu-recommendation" : "<b>비어 버라이어티팩</b>"
     },
     "ENTP" : {
@@ -117,7 +117,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "매사에 자기 주장이 분명하고 합리적인 당신! 그런 당신에게 딱 어울리는 메뉴!",
-        "menu-img":"파스타7_비프 스테이크 로제 파스타.jpg",
+        "menu-img":"pasta7.jpg",
         "menu-recommendation" : "<b>비프 스테이크 로제 파스타</b>"
     },
     "ENFJ" : {
@@ -137,7 +137,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "모두의 의견을 들어주고 싶은 당신을 위한 호불호 없이 모두가 좋아하는 메뉴! ",
-        "menu-img":"V3_애슐리 버라이어티팩.jpg",
+        "menu-img":"v3.jpg",
         "menu-recommendation" : "<b>애슐리 버라이어티팩</b>"
     },
     "ENFP" : {
@@ -157,7 +157,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "이것도 저것도 다 좋은, 무엇이든 긍정적으로 받아들이는 당신을 위한 조금 특별한 제안!",
-        "menu-img":"V2_키즈 버라이어티팩.jpg",
+        "menu-img":"v2.jpg",
         "menu-recommendation" : "<b>키즈 버라이어티팩</b>"
     },
     "ISTJ" : {
@@ -177,7 +177,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "홈 파티에도 원칙이 있고 매뉴얼이 있죠! 파티에서 절대 빠질 수 없는 메뉴로만 구성된 세트 추천!",
-        "menu-img":"세트2_시그니처 커플세트.jpg",
+        "menu-img":"set2.jpg",
         "menu-recommendation" : "<b>시그니처 그릴세트</b>"
     },
     "ISTP" : {
@@ -197,7 +197,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "홈 파티에서 영양 성분까지 고려할 당신에게! 건강을 위한 균형 잡힌 메뉴!",
-        "menu-img":"V1_그린팜 버라이어티팩.jpg",
+        "menu-img":"v1.jpg",
         "menu-recommendation" : "<b>그린팜 버라이어티팩</b>"
     },
     "ISFJ" : {
@@ -217,7 +217,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "모든 취향을 고려하면서도 가성비까지 놓치지 않는 철두철미한 당신에게 딱 맞는 세트 메뉴!",
-        "menu-img":"세트1_시그니처파스타세트.jpg",
+        "menu-img":"set1.jpg",
         "menu-recommendation" : "<b>시그니처 파스타 세트</b>"
     },
     "ISFP" : {
@@ -237,7 +237,7 @@ var result = {
         "good-mate-link": "./result/ESTJ.html",
         "bad-mate-link": "",
         "menu-description": "자신이 인싸인 이유는 모르지만, 자신도 모르게 또 사람들을 감동시키는 메뉴!",
-        "menu-img":"V7_딸기 버라이어티팩.jpg",
+        "menu-img":"v7.jpg",
         "menu-recommendation" : "<b>딸기 버라이어티팩</b>"
     },
     "INTJ" : {
@@ -257,7 +257,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "자신의 길을 당당히 걸어가는 당신. 누가 뭐래도 한 번 먹어보면 후회 없는 애슐리 홈 뷔페의 미(美)미(味)",
-        "menu-img":"RICE2_얌얌 게살 필라프.jpg",
+        "menu-img":"rice2.jpg",
         "menu-recommendation" : "<b>얌얌게살필라프</b>"
     },
     "INTP" : {
@@ -277,7 +277,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "누구보다 자기 자신을 사랑하는 당신이지만 이번 만큼은 사랑하는 사람과 함께 즐기기를!",
-        "menu-img":"세트2_시그니처 커플세트.jpg",
+        "menu-img":"set2.jpg",
         "menu-recommendation" : "<b>시그니처 커플세트</b>"
     },
     "INFJ" : {
@@ -297,7 +297,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "",
         "menu-description": "겉은 바삭하고 속은 촉촉한 당신에게 안성 맞춤!",
-        "menu-img":"파스타5_베이컨크림빠네파스타.jpg",
+        "menu-img":"pasta5.jpg",
         "menu-recommendation" : "<b>베이컨 크림 빠네 파스타</b>"
     },
     "INFP" : {
@@ -317,7 +317,7 @@ var result = {
         "good-mate-link": "",
         "bad-mate-link": "./result/ESTJ.html",
         "menu-description": "이건 맛있을까? 저건 맛없을까? 이래저래 고민이 많은 당신에게. 고민이 필요 없이 맛있는 메뉴!",
-        "menu-img":"그릴1_목살스테이크.jpg",
+        "menu-img":"grill1.jpg",
         "menu-recommendation" : "<b>목살 스테이크</b>"
     }
 }
