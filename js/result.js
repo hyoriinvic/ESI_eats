@@ -14,6 +14,8 @@ var result = {
         "bad-mate-mbti" : "INFP",
         "good-mate-img" : "EN.png",
         "bad-mate-img" : "IN.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "파티에서 메인 메뉴가 빠질 수 없죠! 메인의 꽃, 스테이크!",
         "menu-img":"",
         "menu-recommendation" : "<b>블랙킹 비프스테이크</b>"
@@ -32,6 +34,8 @@ var result = {
         "bad-mate-mbti" : "ENFJ",
         "good-mate-img" : "IS.png",
         "bad-mate-img" : "EN.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "오감과 삶의 모든 것을 즐기지만, 나만 만족하는 건 NOPE! 구성원 모두가 만족할 바로 이 메뉴!",
         "menu-img":"",
         "menu-recommendation" : "<b>홈뷔페 패밀리 세트</b>"
@@ -50,6 +54,8 @@ var result = {
         "bad-mate-mbti" : "INTP",
         "good-mate-img" : "IS.png",
         "bad-mate-img" : "IN.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "홈 파티의 모두가 행복하게 음식을 즐기길 바라는 당신을 위한 메뉴!",
         "menu-img":"",
         "menu-recommendation" : "<b>홈뷔페 프리미엄 그릴세트</b>"
@@ -68,6 +74,8 @@ var result = {
         "bad-mate-mbti" : "INTJ",
         "good-mate-img" : "IS.png",
         "bad-mate-img" : "IN.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "어디서든 스포트라이트가 비춰지는 당신을 위한 특별한 메인 메뉴!",
         "menu-img":"",
         "menu-recommendation" : "<b>자이언트 글레이즈 폭립</b>"
@@ -86,6 +94,8 @@ var result = {
         "bad-mate-mbti" : "ISTP",
         "good-mate-img" : "EN.png",
         "bad-mate-img" : "IS.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "어디서나 솔직하고 당당하게 자신의 의견을 표현하는 당신! 그런 당신에겐 어울리는 시원한 맥주 한 잔!",
         "menu-img":"",
         "menu-recommendation" : "<b>비어 버라이어티팩</b>"
@@ -104,6 +114,8 @@ var result = {
         "bad-mate-mbti" : "ISFJ",
         "good-mate-img" : "IN.png",
         "bad-mate-img" : "IS.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "매사에 자기 주장이 분명하고 합리적인 당신! 그런 당신에게 딱 어울리는 메뉴!",
         "menu-img":"",
         "menu-recommendation" : "<b>비프 스테이크 파스타</b>"
@@ -122,6 +134,8 @@ var result = {
         "bad-mate-mbti" : "ISTJ",
         "good-mate-img" : "IS.png",
         "bad-mate-img" : "IN.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "모두의 의견을 들어주고 싶은 당신을 위한 호불호 없이 모두가 좋아하는 메뉴! ",
         "menu-img":"",
         "menu-recommendation" : "<b>애슐리 버라이어티팩</b>"
@@ -140,6 +154,8 @@ var result = {
         "bad-mate-mbti" : "ESTP",
         "good-mate-img" : "IN.png",
         "bad-mate-img" : "ES.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "이것도 저것도 다 좋은, 무엇이든 긍정적으로 받아들이는 당신을 위한 조금 특별한 제안!",
         "menu-img":"",
         "menu-recommendation" : "<b>키즈 버라이어티팩</b>"
@@ -158,6 +174,8 @@ var result = {
         "bad-mate-mbti" : "INFJ",
         "good-mate-img" : "ES.png",
         "bad-mate-img" : "IN.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "홈 파티에도 원칙이 있고 매뉴얼이 있죠! 파티에서 절대 빠질 수 없는 메뉴로만 구성된 세트 추천!",
         "menu-img":"",
         "menu-recommendation" : "<b>시그니처 그릴세트</b>"
@@ -176,6 +194,8 @@ var result = {
         "bad-mate-mbti" : "ENTP",
         "good-mate-img" : "ES.png",
         "bad-mate-img" : "EN.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "홈 파티에서 영양 성분까지 고려할 당신에게! 건강을 위한 균형 잡힌 메뉴!",
         "menu-img":"",
         "menu-recommendation" : "<b>그린팜 버라이어티팩</b>"
@@ -194,6 +214,8 @@ var result = {
         "bad-mate-mbti" : "ENFP",
         "good-mate-img" : "ES.png",
         "bad-mate-img" : "EN.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "모든 취향을 고려하면서도 가성비까지 놓치지 않는 철두철미한 당신에게 딱 맞는 세트 메뉴!",
         "menu-img":"",
         "menu-recommendation" : "<b>시그니처 파스타 세트</b>"
@@ -212,6 +234,8 @@ var result = {
         "bad-mate-mbti" : "ENTJ",
         "good-mate-img" : "ES.png",
         "bad-mate-img" : "EN.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "자신이 인싸인 이유는 모르지만, 자신도 모르게 또 사람들을 감동시키는 메뉴!",
         "menu-img":"",
         "menu-recommendation" : "<b>딸기 버라이어티팩</b>"
@@ -230,6 +254,8 @@ var result = {
         "bad-mate-mbti" : "ESFJ",
         "good-mate-img" : "EN.png",
         "bad-mate-img" : "ES.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "자신의 길을 당당히 걸어가는 당신. 누가 뭐래도 한 번 먹어보면 후회 없는 애슐리 홈 뷔페의 미(美)미(味)",
         "menu-img":"",
         "menu-recommendation" : "<b>얌얌게살필라프</b>"
@@ -248,6 +274,8 @@ var result = {
         "bad-mate-mbti" : "ESFP",
         "good-mate-img" : "EN.png",
         "bad-mate-img" : "ES.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "누구보다 자기 자신을 사랑하는 당신이지만 이번 만큼은 사랑하는 사람과 함께 즐기기를!",
         "menu-img":"",
         "menu-recommendation" : "<b>시그니처 커플세트</b>"
@@ -266,6 +294,8 @@ var result = {
         "bad-mate-mbti" : "ISFP",
         "good-mate-img" : "IS.png",
         "bad-mate-img" : "IS.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "겉은 바삭하고 속은 촉촉한 당신에게 안성 맞춤!",
         "menu-img":"",
         "menu-recommendation" : "<b>베이컨 크림 빠네 파스타</b>"
@@ -284,6 +314,8 @@ var result = {
         "bad-mate-mbti" : "ESTJ",
         "good-mate-img" : "IN.png",
         "bad-mate-img" : "ES.png",
+        "good-mate-link": "",
+        "bad-mate-link": "",
         "menu-description": "이건 맛있을까? 저건 맛없을까? 이래저래 고민이 많은 당신에게. 고민이 필요 없이 맛있는 메뉴!",
         "menu-img":"",
         "menu-recommendation" : "<b>목살 스테이크</b>"
