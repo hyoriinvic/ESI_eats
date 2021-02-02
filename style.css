@@ -87,7 +87,7 @@ article {
 .progress-number {
     margin-left:auto;    
     color: #C4C4C4;
-    font-size: px;
+    /* font-size: px; */
     /* float: left; */
     flex: 1;
 }
@@ -103,6 +103,7 @@ article {
     transition: background 0.8s; */
     font-size: 25px;
     font-weight: bolder;
+    margin-top: 92.5px;
 }
 
 /* 결과창에 대한 설정 */
