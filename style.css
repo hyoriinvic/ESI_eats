@@ -6,6 +6,12 @@
     font-style: normal;
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+.hanna * {
+    font-family: 'Hanna', fantasy;
+}
+
 /* 전체 페이지에 대해, 글자체 적용 및  */
 body {
     font-family: 'ELAND_Choice_M';
@@ -227,6 +233,21 @@ article {
     font-size: 22.5px;
 }
 
+.btn-delivery {
+    color: white;
+    font-size: 15px;
+    font-weight:bolder;
+}
+
+#yogiyo {
+    background-color: #d91022;
+}
+
+#baemin {
+    background-color: #00c9d2;
+    font-family: 'Hanna';
+}
+
 /* 화면 하단의 공유하기 버튼 */
 .share {
     margin: 0 auto;
@@ -238,6 +259,7 @@ article {
     height: 50px;
     transition: background 0.8s;
     font-size: 15px;
+    font-weight:bolder;
     margin-bottom: 20px;
 }
 
