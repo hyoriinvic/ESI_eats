@@ -221,8 +221,8 @@
                     $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
                     $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
                     $("#percentage").html(result[mbti]["percentage"]);
-                    $("#good-mate-card").attr("onclick","\"location.href='"+result[mbti]["good-mate-link"]+"\'\"");
-                    $("#bad-mate-card").attr("onclick","\"location.href='"+result[mbti]["bad-mate-link"]+"\'\"");
+                    $("#good-mate-card").attr("onclick","location.href='" + result[mbti]["good-mate-link"] + "'");
+                    $("#bad-mate-card").attr("onclick","location.href='" + result[mbti]["bad-mate-link"] + "'");
                     $("#good-mate-mbti").html(result[mbti]["good-mate-mbti"]);
                     $("#bad-mate-mbti").html(result[mbti]["bad-mate-mbti"]);
                     $("#good-mate").html(result[mbti]["good-mate"]);
