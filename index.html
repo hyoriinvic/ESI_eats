@@ -100,7 +100,7 @@
         
         <!-- 환상/환장의 짝궁 이미지 추가 -->
         <div class="recommendation mt-2 container-fluid row" >
-            <div id="good-mate-card" class="col card" onclick="location.href='result-notuse/ESTJ.html'"> 
+            <div id="good-mate-card" class="col card" onclick="location.href=''"> 
                 <div class="title text-center mt-2"><b>환상의 짝꿍</b></div>
                 <div class="inner" style="padding: 16px 16px 6px; height: 270px;">
                     <div id="good-mate" class="type text-center">환상의 짝꿍</div>
@@ -108,7 +108,7 @@
                     <img id="good-mate-img" class="img-fluid rounded mx-auto d-block mt-2" src="./image/shleyz.png" alt="good-mate-img">
                 </div>
             </div>
-            <div id="bad-mate-card" class="col card"> 
+            <div id="bad-mate-card" class="col card" onclick="location.href=''"> 
                 <div class="title text-center mt-2"><b>환장의 짝꿍</b></div>
                 <div class="inner" style="padding: 16px 16px 6px; height: 270px;">
                     <div id="bad-mate" class="type text-center">환장의 짝꿍</div>
@@ -226,8 +226,8 @@
                     $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
                     $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
                     $("#percentage").html(result[mbti]["percentage"]);
-                    // $("#good-mate-card").attr("onclick","\"location.href='"+result[mbti]["good-mate-link"]+"\'\"");
-                    // $("#bad-mate-card").attr("onclick","\"location.href='"+result[mbti]["bad-mate-link"]+"\'\"");
+                    $("#good-mate-card").attr("onclick","\"location.href='"+result[mbti]["good-mate-link"]+"\'\"");
+                    $("#bad-mate-card").attr("onclick","\"location.href='"+result[mbti]["bad-mate-link"]+"\'\"");
                     $("#good-mate-mbti").html(result[mbti]["good-mate-mbti"]);
                     $("#bad-mate-mbti").html(result[mbti]["bad-mate-mbti"]);
                     $("#good-mate").html(result[mbti]["good-mate"]);
