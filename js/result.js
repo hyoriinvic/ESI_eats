@@ -234,7 +234,7 @@ var result = {
         "bad-mate-mbti" : "ENTJ",
         "good-mate-img" : "ES.png",
         "bad-mate-img" : "EN.png",
-        "good-mate-link": "",
+        "good-mate-link": "./result/ESTJ.html",
         "bad-mate-link": "",
         "menu-description": "자신이 인싸인 이유는 모르지만, 자신도 모르게 또 사람들을 감동시키는 메뉴!",
         "menu-img":"",
@@ -315,7 +315,7 @@ var result = {
         "good-mate-img" : "IN.png",
         "bad-mate-img" : "ES.png",
         "good-mate-link": "",
-        "bad-mate-link": "",
+        "bad-mate-link": "./result/ESTJ.html",
         "menu-description": "이건 맛있을까? 저건 맛없을까? 이래저래 고민이 많은 당신에게. 고민이 필요 없이 맛있는 메뉴!",
         "menu-img":"",
         "menu-recommendation" : "<b>목살 스테이크</b>"
