@@ -18,7 +18,7 @@ var result = {
         "bad-mate-link": "./result/INFP.html",
         "menu-description": "파티에서 메인 메뉴가 빠질 수 없죠! 메인의 꽃, 스테이크!",
         "menu-img":"grill3.jpg",
-        "menu-recommendation" : "<b>블랙킹 비프스테이크</b>"
+        "menu-recommendation" : "<b>블랙 킹 비프 스테이크</b>"
     },
     "ESTP" : {
         "shleyz-description" : "그래도 놀 땐 확실하게 놀아야지!",
@@ -58,13 +58,13 @@ var result = {
         "bad-mate-link": "./result/INTP.html",
         "menu-description": "홈 파티의 모두가 행복하게 음식을 즐기길 바라는 당신을 위한 메뉴!",
         "menu-img":"set5.jpg",
-        "menu-recommendation" : "<b>홈뷔페 프리미엄 그릴세트</b>"
+        "menu-recommendation" : "<b>홈뷔페 프리미엄 그릴 세트</b>"
     },
     "ESFP" : {
         "shleyz-description" : "화려한 조명은 나를 감싸라고!",
         "shleyz-type" : "연예인 베리빗",
         "mbti-type" : "ESFP",
-        "mbti-explain" : "<b>#천상연예인 #노는게제일좋아 #우주최강자존감</b><br>친구들 사이에서 연예인급 인기를 누리는 당신! 개성과 매력이 넘치는 당신은 활동적이며 낙천적이에요. MBTI 유형 중에서 가장 행복도가 높은 사람 중 하나랍니다. 홈 파티에서도 친구들을 기쁘게 할 깜짝 쇼를 준비했을 수도? 또한 당신은 정이 많아 거절을 잘 못하는 편이에요. 하지만 좋고 싫은 사람이 분명하고 표정에 잘 드러나는 타입이라, 친구들이 은근 당신의 눈치를 보고 있을 수 있어요 :o",
+        "mbti-explain" : "<b>#천상연예인 #노는게제일좋아 #우주최강자존감</b><br>친구들 사이에서 연예인급 인기를 누리는 당신! 개성과 매력이 넘치는 당신은 활동적이며 낙천적이에요. MBTI 유형 중에서 가장 행복도가 높은 사람 중 하나랍니다. 홈 파티에서도 친구들을 기쁘게 할 깜짝 쇼를 준비했을 수도? 또한, 당신은 정이 많아 거절을 잘 못하는 편이에요. 하지만 좋고 싫은 사람이 분명하고 표정에 잘 드러나는 타입이라, 친구들이 은근 당신의 눈치를 보고 있을 수 있어요 :o",
         "result-image" : "esfp.jpg", // 각 유형별 이미지
         "skill-img" : "esfp-skill.png",
         "percentage": "5.3%",
@@ -84,7 +84,7 @@ var result = {
         "shleyz-description" : "않!이! 코로나 외.않.끝.나? 화가 난다!",
         "shleyz-type" : "앵그리버드 오몽새",
         "mbti-type" : "ENTJ",
-        "mbti-explain" : "<b>#슈퍼솔직 #스티브잡스 #내일은내일니일은니일</b><br>지적인 자극을 주는 새로운 아이디어에 목마른 당신! 논리적인 계산에도 능숙해 유능함의 대표 주자라고 할 수 있죠. 사회적으로 가장 성공하는 유형이랍니다~ 추카추카! 하지만 감정 표현이 아주 솔직해서 다른 사람들에게 의도치 않은 상처를 줄 수 있으니 조심해주세요. 또한, 가까운 사람에게는 헌신적이고 따뜻한 사람이지만 멀어지면 뒤도 돌아보지 않는 칼 같은 면도 가지고 있어요. 지금쯤 반복되는 지겨운 일상에서 새로운 자극을 찾고 있을 당신, 가까운 사람들과의 소소한 홈 파티 어때요?",
+        "mbti-explain" : "<b>#슈퍼솔직 #스티브잡스 #난나고넌너야</b><br>지적인 자극을 주는 새로운 아이디어에 목마른 당신! 논리적인 계산에도 능숙해 유능함의 대표 주자라고 할 수 있죠. 사회적으로 가장 성공하는 유형이랍니다~ 추카추카! 하지만 감정 표현이 아주 솔직해서 다른 사람들에게 의도치 않은 상처를 줄 수 있으니 조심해주세요. 또한, 가까운 사람에게는 헌신적이고 따뜻한 사람이지만 멀어지면 뒤도 돌아보지 않는 칼 같은 면도 가지고 있어요. 지금쯤 반복되는 지겨운 일상에서 새로운 자극을 찾고 있을 당신, 가까운 사람들과의 소소한 홈 파티 어때요?",
         "result-image" : "entj.jpg", // 각 유형별 이미지
         "skill-img" : "entj-skill.png",
         "percentage": "3.8%",
@@ -178,7 +178,7 @@ var result = {
         "bad-mate-link": "./result/INFJ.html",
         "menu-description": "홈 파티에도 원칙이 있고 매뉴얼이 있죠! 파티에서 절대 빠질 수 없는 메뉴로만 구성된 세트 추천!",
         "menu-img":"set2.jpg",
-        "menu-recommendation" : "<b>시그니처 그릴세트</b>"
+        "menu-recommendation" : "<b>시그니처 그릴 세트</b>"
     },
     "ISTP" : {
         "shleyz-description" : "오늘 확진자는 몇 명이고, 이 지역은 좀 위험한 거 같아!",
@@ -258,7 +258,7 @@ var result = {
         "bad-mate-link": "./result/ESFJ.html",
         "menu-description": "자신의 길을 당당히 걸어가는 당신. 누가 뭐래도 한 번 먹어보면 후회 없는 애슐리 홈 뷔페의 미(美)미(味)",
         "menu-img":"rice2.jpg",
-        "menu-recommendation" : "<b>얌얌게살필라프</b>"
+        "menu-recommendation" : "<b>얌얌 게살 필라프</b>"
     },
     "INTP" : {
         "shleyz-description" : "훗! 다들 내 덕에 즐거워하네? 하.. 이 몸의 인기란~",
@@ -278,7 +278,7 @@ var result = {
         "bad-mate-link": "./result/ESFP.html",
         "menu-description": "누구보다 자기 자신을 사랑하는 당신이지만 이번 만큼은 사랑하는 사람과 함께 즐기기를!",
         "menu-img":"set2.jpg",
-        "menu-recommendation" : "<b>시그니처 커플세트</b>"
+        "menu-recommendation" : "<b>시그니처 커플 세트</b>"
     },
     "INFJ" : {
         "shleyz-description" : "흐음.. 혼자 집에 있기가 그리 어려운가? (이미 나갈 준비 완료)",
@@ -318,6 +318,6 @@ var result = {
         "bad-mate-link": "./result/ESTJ.html",
         "menu-description": "이건 맛있을까? 저건? 이런 저런 고민이 많은 당신에게! 고민이 필요 없이 맛있는 메뉴!",
         "menu-img":"grill1.jpg",
-        "menu-recommendation" : "<b>목살 스테이크</b>"
+        "menu-recommendation" : "<b>갈릭 BBQ 목살 스테이크</b>"
     }
 }
