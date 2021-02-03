@@ -221,6 +221,15 @@ article {
     color: #A6ABAB;
 }
 
+#kakao{
+    height: 50px;
+    margin: 0 auto;
+    font-size: 15px;
+    background-color: #F7E600;
+    color: black;
+}
+
+
 /* 화면 하단의 공유하기 버튼 */
 .share {
     margin: 0 auto;
