@@ -126,6 +126,14 @@ article {
     color: #A6ABAB;
 }
 
+#good-mate{
+    color: #fdaf31;
+}
+
+#bad-mate{
+    color: #fdaf31;
+}
+
 #good-mate-img {
     width: 125px;
     height: 125px;
