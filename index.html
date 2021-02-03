@@ -24,7 +24,8 @@
     <meta property="og:image" content="http://home-party.netlify.app/for-share.jpg">
     <meta property="og:url" content="https://home-party.netlify.app/">
 
-    <link rel="shortcut icon" href="https://home-party.netlify.app/favicon.ico"> 
+    <link rel="shortcut icon" href="https://home-party.netlify.app/favicon.png"> 
+    <link rel="shortcut icon" href="./image/favicon.PNG"> 
     <!-- html을 꾸며주는 파일 -->
     <!-- 편리성 도모를 위해 getbootstrap.com 활용 - cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -34,6 +35,10 @@
     <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Kakao API -->
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script>Kakao.init('fe80e4c0924bac1bac13a933b92cf35c'); </script>
 </head>
 
 <body class="container">
@@ -137,8 +142,13 @@
                     <img id="bad-mate-img" class="rounded mx-auto d-block mt-2" src="./image/shleyz.png" alt="bad-mate-img">
                 </div>
             </div>
-        </div>  
-
+        </div> 
+        
+        <div class="text-center mt-2">
+            <div>검사 결과과 재밌었다면,</div>
+            <button id="kakao" type="button" class="btn btn-kakao mt-2" onclick=javascript:kakao() target="_blank">카카오톡으로 공유하기</button>
+        </div>
+        
         <div class="share addthis_inline_share_toolbox mt-5"></div>
         <button id="retest" type="button" class="btn btn-retest mt-5" onclick="location.href='https://home-party.netlify.app/';">테스트 다시하기</button>
         <img id="logo-img" class="mt-2" src="./image/logo.jpg" alt="ashley-logo">
@@ -277,44 +287,9 @@
                         })
                     })
                 }
-            
-            // // 문항이 12개니까, 마지막 문제에 도달하면
-            // if (num == 14){
-            //     $("#showing-result").click(function() {
-            //         $(".before-result").hide();
-            //         $(".result").show();
-
-            //         // 최종 MBTI 구하기
-            //         var mbti = "";
-
-            //         ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";
-            //         ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
-            //         ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
-            //         ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
-
-            //         $(".shleyz-type").html(result[mbti]["shleyz-type"]);
-            //         $("#shleyz-description").html(result[mbti]["shleyz-description"]);
-            //         $("#mbti-type").html(result[mbti]["mbti-type"]);
-            //         $(".mbti-explain").html(result[mbti]["mbti-explain"]);
-            //         $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
-            //         $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
-            //         $("#percentage").html(result[mbti]["percentage"]);
-            //         $("#good-mate-card").attr("onclick","location.href='" + result[mbti]["good-mate-link"] + "'");
-            //         $("#bad-mate-card").attr("onclick","location.href='" + result[mbti]["bad-mate-link"] + "'");
-            //         $("#good-mate-mbti").html(result[mbti]["good-mate-mbti"]);
-            //         $("#bad-mate-mbti").html(result[mbti]["bad-mate-mbti"]);
-            //         $("#good-mate").html(result[mbti]["good-mate"]);
-            //         $("#bad-mate").html(result[mbti]["bad-mate"]);
-            //         $("#good-mate-img").attr("src", "image/"+result[mbti]["good-mate-img"]);
-            //         $("#bad-mate-img").attr("src", "image/"+result[mbti]["bad-mate-img"]);
-            //         $("#buffet-menu").html(result[mbti]["menu-recommendation"]);
-            //         $("#menu-img").attr("src", "image/"+result[mbti]["menu-img"]);
-            //         $("#menu-description").html(result[mbti]["menu-description"]);
-            //     })
-            // }   
         }
     </script>
-    <script>
+    <script type="text/javascript">
         //더보기 토글
         function showplay() {
             var flag = $('#hidTempSynopsis');
@@ -338,6 +313,18 @@
             else {
                 alert("[더보기] 추가 정보가 없습니다.");
             }
+        }
+    </script>
+    <script type="text/javascript">
+        const url = 'https://hyoriinvic.github.io/homeparty/';
+        const title = '[홈파티 유형 테스트] 애슐리 홈 뷔페 (딜리버리 서비스) ';
+        const hash = '%23home_party_type_test %23홈파티유형테스트 %23애슐리홈뷔페';
+
+        const kakao = () => {
+            Kakao.Link.sendCustom({
+              templateId: 45235,   // 15번 항목에서 확인하였던 이벤트번호 등록 
+            });
+            return false;
         }
     </script>
 
