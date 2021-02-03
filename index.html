@@ -188,7 +188,7 @@
 
         // 답변 선택 시 다음 문제로 이동 & 결과 페이지
         function next() {
-            if(num<=12) {
+            if(num<=13) {
                 // progress bar 채우기
                 $(".progress-bar").attr("style", "width:calc(100/12*"+num+"%)");
                 $("#question-number").html(num);
@@ -201,7 +201,7 @@
             }         
             
             // 문항이 12개니까, 마지막 문제에 도달하면
-            if (num==13){
+            if (num==14){
                 $(".question").hide();
                 $(".before-result").show();
 
