@@ -195,14 +195,14 @@ article {
 
 #good-mate-img {
     width: 125px;
-    height: 125px;
+    height: 100px;
     margin: 0 auto;
     margin-bottom: 10px; /* 가운데 배치 */
 }
 
 #bad-mate-img {
     width: 125px;
-    height: 125px;
+    height: 100px;
     margin: 0 auto; /* 가운데 배치 */
     margin-bottom: 10px;
 }
