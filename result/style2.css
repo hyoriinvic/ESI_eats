@@ -128,21 +128,23 @@ article {
 
 #good-mate{
     color: #fdaf31;
+    font-weight: bolder;
 }
 
 #bad-mate{
     color: #fdaf31;
+    font-weight: bolder;
 }
 
 #good-mate-img {
     width: 125px;
-    height: 125px;
+    height: 115px;
     margin: 0 auto;
 }
 
 #bad-mate-img {
     width: 125px;
-    height: 125px;
+    height: 115px;
     margin: 0 auto; /* 가운데 배치 */
 }
 
