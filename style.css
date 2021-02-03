@@ -1,14 +1,13 @@
 /* 화면을 쉽게 꾸밀 수 있도록 getbootstrap.com 활용 */
-/* @font-face {
-    font-family: 'ELAND_Choice_M';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-} */
-
+}
 /* 전체 페이지에 대해, 글자체 적용 및  */
 body {
-    /* font-family: 'ELAND_Choice_M'; */
+    font-family: 'S-CoreDream-3Light';
     word-break: keep-all;
 }
 
