@@ -242,17 +242,6 @@ article {
     width: 120px;
     height: 60px;
 }
-
-#yogiyo {
-    background-color: #d91022;
-    /* float: left; */
-}
-
-#baemin {
-    background-color: #00c9d2;
-    /* display: inline-block; */
-}
-
 /* 광고용 배너 및 이미지 설정 */
 .add-body{
     font-size: 17.5px;

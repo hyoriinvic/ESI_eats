@@ -14,7 +14,7 @@
 
 /* 전체 페이지에 대해, 글자체 적용 및  */
 body {
-    font-family: 'ELAND_Choice_M';
+    /* font-family: 'ELAND_Choice_M'; */
     word-break: keep-all;
 }
 
@@ -174,19 +174,6 @@ article {
     width: 120px;
     height: 60px;
 }
-
-#yogiyo {
-    background-color: #d91022;
-    /* float: left; */
-}
-
-#baemin {
-    background-color: #00c9d2;
-    font-family: 'Hanna';
-    /* display: inline-block; */
-}
-
-
 
 /* 광고용 배너 및 이미지 설정 */
 .add-body{
