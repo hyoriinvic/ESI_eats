@@ -30,7 +30,7 @@ article {
 }
 
 #opening-text {
-    color: #C4C4C4;
+    color: #A6ABAB;
 }
 
 #opening-family-img {
@@ -86,7 +86,7 @@ article {
 /* 문제 진행 상황 보이도록 */
 .progress-number {
     margin-left:auto;    
-    color: #C4C4C4;
+    color: #A6ABAB;
     /* font-size: px; */
     /* float: left; */
     flex: 1;
@@ -117,7 +117,7 @@ article {
 }
 
 #mbti-type{
-    color: #C4C4C4;
+    color: #A6ABAB;
 }
 
 /* 결과창에 들어가는 유형별 이미지 */
@@ -172,7 +172,7 @@ article {
 }
 
 #synopMore{
-    color:#C4C4C4;
+    color:#A6ABAB;
 }
 
 #percentage {
@@ -196,7 +196,7 @@ article {
 }
 
 .mate-mbti {
-    color: #c4C4C4;
+    color:#A6ABAB;
 }
 
 #good-mate-img {
@@ -250,11 +250,8 @@ article {
 
 #baemin {
     background-color: #00c9d2;
-    font-family: 'Hanna';
     /* display: inline-block; */
 }
-
-
 
 /* 광고용 배너 및 이미지 설정 */
 .add-body{
@@ -278,7 +275,7 @@ article {
 }
 
 .add-sub {
-    color: #c4C4C4;
+    color: #A6ABAB;
     font-style: 10px;
 }
 
@@ -299,5 +296,5 @@ article {
 
 .copyright {
     font-size: 10px;
-    color:#C4C4C4;
+    color:#A6ABAB;
 }

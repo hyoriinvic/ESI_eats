@@ -50,7 +50,7 @@ article {
 }
 
 #mbti-type{
-    color: #C4C4C4;
+    color: #A6ABAB;
 }
 
 /* 결과창에 들어가는 유형별 이미지 */
@@ -105,7 +105,7 @@ article {
 }
 
 #synopMore{
-    color:#C4C4C4;
+    color:#A6ABAB;
 }
 
 #percentage {
@@ -121,7 +121,7 @@ article {
 
 .card {
     float: right;
-    /* box-shadow: 2.5px 2.5px  #c4C4C4; */
+    /* box-shadow: 2.5px 2.5px  #A6ABAB; */
 }
 
 .title {
@@ -129,7 +129,7 @@ article {
 }
 
 .mate-mbti {
-    color: #c4C4C4;
+    color: #A6ABAB;
 }
 
 #good-mate-img {
@@ -210,7 +210,7 @@ article {
 }
 
 .add-sub {
-    color: #c4C4C4;
+    color: #A6ABAB;
 }
 
 /* 화면 하단의 공유하기 버튼 */
@@ -230,5 +230,5 @@ article {
 
 .copyright {
     font-size: 10px;
-    color:#C4C4C4;
+    color:#A6ABAB;
 }
