@@ -320,18 +320,17 @@
         const hash = '%23home_party_type_test %23홈파티유형테스트 %23애슐리홈뷔페';
 
         const kakao = () => {
-            var kakao_share = "";
             var mbti = "";
 
             ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";
             ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
             ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
             ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
-
-            kakao_share = int(result[mbti]["kakao-share"]);
+            
+            console.log(Number(result[mbti]["kakao-share"]));
 
             Kakao.Link.sendCustom({
-              templateId: kakao_share,   // 15번 항목에서 확인하였던 이벤트번호 등록 
+              templateId: Number(result[mbti]["kakao-share"]),   // 15번 항목에서 확인하였던 이벤트번호 등록 
             });
             return false;
         }
