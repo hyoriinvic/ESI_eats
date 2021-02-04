@@ -1,0 +1,25 @@
+/* 카카오톡으로 공유하기 */
+#kakao{
+    height: 50px;
+    margin: 0 auto;
+    font-size: 15px;
+    background-color: #F7E600;
+    color: black;
+}
+
+/* 테스트 다시하기 */
+.btn-retest {
+    background-color:#fdaf31;
+    color: white;
+    height: 50px;
+    transition: background 0.8s;
+    font-size: 15px;
+    font-weight:bolder;
+    margin-bottom: 20px;
+}
+
+/* 카피라이트 */
+.copyright {
+    font-size: 10px;
+    color:#A6ABAB;
+}

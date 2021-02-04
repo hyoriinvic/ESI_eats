@@ -1,0 +1,69 @@
+/* 메뉴 추천 */
+.menu-recommendation {
+    margin: 0 auto;
+    
+}
+
+.menu {
+    font-size: 17.5px;
+}
+
+#menu-name {
+    font-size: 22.5px;
+}
+
+#buffet-menu {
+    font-size: 22.5px;
+}
+
+#menu-img{
+    margin: 0 auto; 
+    width: 250px;
+    height: 250px;
+}
+
+/* 같은 유형의 사람 % */
+#percentage {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fdaf31;
+}
+
+/* 짝꿍 */
+.recommendation {
+    margin: 0 auto;
+}
+
+.card {
+    float: right;
+}
+
+.title {
+    font-size: 17.5px;
+}
+
+.mate-mbti {
+    color:#A6ABAB;
+}
+
+#good-mate{
+    color: #fdaf31;
+    font-weight: bolder;
+}
+
+#good-mate-img {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+#bad-mate{
+    color: #fdaf31;
+    font-weight: bolder;
+}
+
+#bad-mate-img {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+}

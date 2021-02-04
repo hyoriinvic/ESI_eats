@@ -1,0 +1,40 @@
+/* 질문에 대한 설정 */
+/* 문제와 선택지가 들어가는 article tag 에서의 class */
+.question {
+    display: none;
+}
+
+/* 프로그레스 바에 대한 설정 */
+.progress-bar {
+    background-color:#fdaf31;
+}
+
+/* 문제에 대한 설정 */
+#title{
+    font-weight: bolder;
+}
+
+/* 버튼에 대한 설정 */
+.btn {
+    background-color:#fdaf31;
+    color: white;
+    height: 100px;
+    transition: background 0.8s;
+}
+
+.btn:hover, .btn:active {
+    background:#fdaf31;
+    color:white;
+}
+
+/* 답변 버튼 2개 */
+.btn-answer {
+    font-size: 20px;
+}
+
+/* 문제 진행 상황 보이도록 */
+.progress-number {
+    margin-left:auto;    
+    color: #A6ABAB;
+    flex: 1;
+}

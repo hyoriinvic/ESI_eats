@@ -1,0 +1,19 @@
+.before-result{
+    display:none;
+}
+
+#showing-result {
+    margin-top: 95px;   
+    height: 50px;
+    font-size: 25px;
+}
+
+/* 광고용 배너 및 이미지 설정 */
+.add-body{
+    font-size: 17.5px;
+}
+
+.add-banner-img {
+    width: 300px;
+    margin: 0 auto;
+}
