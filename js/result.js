@@ -185,7 +185,7 @@ var result = {
         "good-mate-link": "./result/ESFJ.html",
         "bad-mate-link": "./result/INFJ.html",
         "menu-description": "홈 파티에도 원칙이 있고 매뉴얼이 있죠! 파티에서 절대 빠질 수 없는 메뉴로만 구성된 세트 추천!",
-        "menu-img": "set2.jpg",
+        "menu-img": "set3.jpg",
         "menu-recommendation": "<b>시그니처 그릴 세트</b>",
         "kakao-share": "46598"
     },
