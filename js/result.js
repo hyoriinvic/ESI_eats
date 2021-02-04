@@ -8,7 +8,7 @@ var result = {
         "result-image": "estj.jpg", // 각 유형별 이미지
         "skill-img": "estj-skill.png",
         "percentage": "10.7%",
-        "good-mate": "앵그리버드<br>오몽새",
+        "good-mate": "앵그리<br>오몽새",
         "bad-mate": "과대망상<br>람찌",
         "good-mate-mbti": "ENTJ",
         "bad-mate-mbti": "INFP",
@@ -86,7 +86,7 @@ var result = {
     },
     "ENTJ": {
         "shleyz-description": "않!이! 코로나 외.않.끝.나? 화가 난다!",
-        "shleyz-type": "앵그리버드 오몽새",
+        "shleyz-type": "앵그리 오몽새",
         "mbti-type": "ENTJ",
         "mbti-explain": "<b>#슈퍼솔직 #스티브잡스 #난나고넌너야</b><br>지적인 자극을 주는 새로운 아이디어에 목마른 당신! 논리적인 계산에도 능숙해 유능함의 대표 주자라고 할 수 있죠. 사회적으로 가장 성공하는 유형이랍니다~ 추카추카! 하지만 감정 표현이 아주 솔직해서 다른 사람들에게 의도치 않은 상처를 줄 수 있으니 조심해주세요. 또한, 가까운 사람에게는 헌신적이고 따뜻한 사람이지만 멀어지면 뒤도 돌아보지 않는 칼 같은 면도 가지고 있어요. 지금쯤 반복되는 지겨운 일상에서 새로운 자극을 찾고 있을 당신, 가까운 사람들과의 소소한 홈 파티 어때요?",
         "result-image": "entj.jpg", // 각 유형별 이미지
@@ -240,7 +240,7 @@ var result = {
         "skill-img": "isfp-skill.png",
         "percentage": "5.9%",
         "good-mate": "관리 감독 베리빗",
-        "bad-mate": "앵그리버드 오몽새",
+        "bad-mate": "앵그리 오몽새",
         "good-mate-mbti": "ESTJ",
         "bad-mate-mbti": "ENTJ",
         "good-mate-img": "estj.jpg",
