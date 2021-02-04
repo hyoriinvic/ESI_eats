@@ -89,12 +89,12 @@
     <!-- 테스트 결과 확인하기 버튼 추가 -->
     <article class="before-result mt-5">
         <img id="before-result-img" class="img-fluid mx-auto d-block" src="./image/introduction.png" alt="before-result-image">
-        <button id="showing-result" type="button" class="btn mt-5">테스트 결과 확인하기!</button>
-        <div class="add-body text-center mt-5">
+        <button id="showing-result" type="button" class="btn mt-2">테스트 결과 확인하기!</button>
+        <div class="add-body text-center mt-2">
             <div>
                 <span>본 테스트는 </span><span class="add"><b>애슐리 홈뷔페</b></span><span>와 함께 합니다.</span>
             </div>
-            <img class="add-banner-img mt-2 text-center" src="image/세로형_이벤트2.jpg" alt="banner">
+            <img id="add-img" class="add-banner-img mt-2 text-center" src="image/세로형_이벤트2.jpg" alt="banner">
         </div>
         
     </article>
@@ -234,7 +234,68 @@
                         $(".before-result").show();
                         num++;
                         console.log(num);
+                        $("#before-result-img").click(function() {
+                            $(".before-result").hide();
+                            $(".result").show();
 
+                            // 최종 MBTI 구하기
+                            var mbti = "";
+
+                            ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";
+                            ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
+                            ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
+                            ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
+
+                            $(".shleyz-type").html(result[mbti]["shleyz-type"]);
+                            $("#shleyz-description").html(result[mbti]["shleyz-description"]);
+                            $("#mbti-type").html(result[mbti]["mbti-type"]);
+                            $(".mbti-explain").html(result[mbti]["mbti-explain"]);
+                            $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
+                            $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
+                            $("#percentage").html(result[mbti]["percentage"]);
+                            $("#good-mate-card").attr("onclick","location.href='" + result[mbti]["good-mate-link"] + "'");
+                            $("#bad-mate-card").attr("onclick","location.href='" + result[mbti]["bad-mate-link"] + "'");
+                            $("#good-mate-mbti").html(result[mbti]["good-mate-mbti"]);
+                            $("#bad-mate-mbti").html(result[mbti]["bad-mate-mbti"]);
+                            $("#good-mate").html(result[mbti]["good-mate"]);
+                            $("#bad-mate").html(result[mbti]["bad-mate"]);
+                            $("#good-mate-img").attr("src", "image/"+result[mbti]["good-mate-img"]);
+                            $("#bad-mate-img").attr("src", "image/"+result[mbti]["bad-mate-img"]);
+                            $("#buffet-menu").html(result[mbti]["menu-recommendation"]);
+                            $("#menu-img").attr("src", "image/"+result[mbti]["menu-img"]);
+                            $("#menu-description").html(result[mbti]["menu-description"]);
+                        })
+                        $("#add-img").click(function() {
+                            $(".before-result").hide();
+                            $(".result").show();
+
+                            // 최종 MBTI 구하기
+                            var mbti = "";
+
+                            ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";
+                            ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
+                            ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
+                            ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
+
+                            $(".shleyz-type").html(result[mbti]["shleyz-type"]);
+                            $("#shleyz-description").html(result[mbti]["shleyz-description"]);
+                            $("#mbti-type").html(result[mbti]["mbti-type"]);
+                            $(".mbti-explain").html(result[mbti]["mbti-explain"]);
+                            $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
+                            $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
+                            $("#percentage").html(result[mbti]["percentage"]);
+                            $("#good-mate-card").attr("onclick","location.href='" + result[mbti]["good-mate-link"] + "'");
+                            $("#bad-mate-card").attr("onclick","location.href='" + result[mbti]["bad-mate-link"] + "'");
+                            $("#good-mate-mbti").html(result[mbti]["good-mate-mbti"]);
+                            $("#bad-mate-mbti").html(result[mbti]["bad-mate-mbti"]);
+                            $("#good-mate").html(result[mbti]["good-mate"]);
+                            $("#bad-mate").html(result[mbti]["bad-mate"]);
+                            $("#good-mate-img").attr("src", "image/"+result[mbti]["good-mate-img"]);
+                            $("#bad-mate-img").attr("src", "image/"+result[mbti]["bad-mate-img"]);
+                            $("#buffet-menu").html(result[mbti]["menu-recommendation"]);
+                            $("#menu-img").attr("src", "image/"+result[mbti]["menu-img"]);
+                            $("#menu-description").html(result[mbti]["menu-description"]);
+                        })
                         $("#showing-result").click(function() {
                             $(".before-result").hide();
                             $(".result").show();
@@ -272,7 +333,7 @@
                         $(".before-result").show();
                         num++;
                         console.log(num);
-
+                        $("#")
                         $("#showing-result").click(function() {
                             $(".before-result").hide();
                             $(".result").show();

@@ -119,11 +119,12 @@ article {
 #showing-result {
     /* background-color:#fdaf31;
     color: white;
-    height: 50px;
+
     transition: background 0.8s; */
     font-size: 25px;
     font-weight: bolder;
-    margin-top: 95px;
+    margin-top: 95px;   
+    height: 50px;
 }
 
 /* 결과창에 대한 설정 */
