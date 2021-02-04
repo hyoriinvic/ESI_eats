@@ -319,17 +319,17 @@
         const title = '[홈파티 유형 테스트] 애슐리 홈 뷔페 (딜리버리 서비스) ';
         const hash = '%23home_party_type_test %23홈파티유형테스트 %23애슐리홈뷔페';
 
-        var kakao_share = "";
-        var mbti = "";
-
-        ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";
-        ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
-        ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
-        ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
-
-        kakao_share = int(result[mbti]["kakao-share"]);
-
         const kakao = () => {
+            var kakao_share = "";
+            var mbti = "";
+
+            ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";
+            ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
+            ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
+            ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
+
+            kakao_share = int(result[mbti]["kakao-share"]);
+
             Kakao.Link.sendCustom({
               templateId: kakao_share,   // 15번 항목에서 확인하였던 이벤트번호 등록 
             });
