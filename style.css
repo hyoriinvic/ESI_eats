@@ -316,7 +316,7 @@ article {
 .btn-retest {
     background-color:#fdaf31;
     color: white;
-    /* height: 50px; */
+    height: 50px;
     transition: background 0.8s;
     font-size: 15px;
     font-weight:bolder;
