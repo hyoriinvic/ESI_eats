@@ -46,7 +46,7 @@
         <!-- 제목 입력 -->
         <div>
             <h1 id="test-name" class="mt-5 text-center"><b>홈파티 유형검사<br>HPTI</b></h1>
-            <h5 id="opening-text" class="mt-5 text-center">슐리즈와 함께 본인의 홈파티 유형을 확인하고 나와 맞는 메뉴도 추천 받으세요!</h5>
+            <h5 id="opening-text" class="mt-5 text-center">슐리즈와 함께 나의 홈파티 유형을 확인하고 어울리는 메뉴도 추천 받아요!</h5>
         </div>
         <img id="opening-family-img" class="img-fluid rounded mx-auto d-block mt-5" src="./image/opening-family.PNG" alt="opening-family">
         <button id="start-btn" type="button" class="btn btn-start mt-5" onclick="start();">테스트 시작하기</button>
@@ -320,8 +320,18 @@
         const hash = '%23home_party_type_test %23홈파티유형테스트 %23애슐리홈뷔페';
 
         const kakao = () => {
+            var kakao_share = "";
+            var mbti = "";
+
+            ($("#EI").val() < 2) ? mbti+="I" : mbti+="E";
+            ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
+            ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
+            ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
+
+            kakao_share = result[mbti]["kakao-share"];
+
             Kakao.Link.sendCustom({
-              templateId: 45235,   // 15번 항목에서 확인하였던 이벤트번호 등록 
+              templateId: kakao_share,   // 15번 항목에서 확인하였던 이벤트번호 등록 
             });
             return false;
         }
