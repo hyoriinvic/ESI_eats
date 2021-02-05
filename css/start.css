@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+#coupon-text {
+    font-size: 17.5px;
+}
+
 /* 테스트 시작하기 */
 #start-btn {
     font-size: 25px;
