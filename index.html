@@ -90,7 +90,6 @@
 
     <article class="before-result mt-5">
         <img id="before-result-img" class="img-fluid mx-auto d-block" src="./image/introduction.png" alt="before-result-image">
-        <button id="showing-result" type="button" class="btn mt-2">테스트 결과 확인하기!</button>
         <div class="add-body text-center mt-5">
             <div>
                 <span>본 테스트는 </span><span style="color: #fdaf31;"><b>애슐리 홈뷔페</b></span><span>와 함께 합니다.</span>
@@ -249,20 +248,23 @@
             }         
             if(num == 13) {
                 $("#A").click(function() {
-                    $(".question").hide();
-                    $(".before-result").show();
-
-                    num++;
-
-                    $(".before-result").click(function() {mbti_result();})
+                    setTimeout(() => {
+                        $(".question").hide();
+                        $(".before-result").show();
+                        setTimeout(() => {
+                            mbti_result();
+                            }, 5000);
+                        }, 0); 
                 })
+
                 $("#B").click(function() {
-                    $(".question").hide();
-                    $(".before-result").show();
-
-                    num++;
-
-                    $(".before-result").click(function() {mbti_result();})
+                    setTimeout(() => {
+                        $(".question").hide();
+                        $(".before-result").show();
+                        setTimeout(() => {
+                            mbti_result();
+                            }, 5000);
+                        }, 0); 
                 })
             }
         }
