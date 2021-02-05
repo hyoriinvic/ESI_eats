@@ -37,7 +37,7 @@ var result = {
         "bad-mate-img": "enfj.jpg",
         "good-mate-link": "./result/ISTP.html",
         "bad-mate-link": "./result/ENFJ.html",
-        "menu-description": "오감과 삶의 모든 것을 즐기지만, 나만 만족하는 건 NOPE! 구성원 모두가 만족할 바로 이 메뉴!",
+        "menu-description": "오감과 삶의 모든 것을 즐기지만, 나만 만족하는 건 NOPE!<br>구성원 모두가 만족할 바로 이 메뉴!",
         "menu-img": "set4.jpg",
         "menu-recommendation": "<b>홈뷔페 패밀리 세트</b>",
         "kakao-share": "46590"
@@ -58,7 +58,7 @@ var result = {
         "bad-mate-img": "intp.jpg",
         "good-mate-link": "./result/ISFP.html",
         "bad-mate-link": "./result/INTP.html",
-        "menu-description": "홈 파티의 모두가 행복하게 음식을 즐기길 바라는 당신을 위한 메뉴!",
+        "menu-description": "홈 파티의 모두가 행복하게 음식을 즐기길 바라는<br>당신을 위한 메뉴!",
         "menu-img": "set5.jpg",
         "menu-recommendation": "<b>홈뷔페 프리미엄 그릴 세트</b>",
         "kakao-share": "46592"
@@ -79,7 +79,7 @@ var result = {
         "bad-mate-img": "intj.jpg",
         "good-mate-link": "./result/ISTJ.html",
         "bad-mate-link": "./result/INTJ.html",
-        "menu-description": "어디서든 스포트라이트가 비춰지는 당신을 위한 특별한 메인 메뉴!",
+        "menu-description": "어디서든 스포트라이트가 비춰지는 당신을 위한<br>특별한 메인 메뉴!",
         "menu-img": "grill2.jpg",
         "menu-recommendation": "<b>자이언트 글레이즈 폭립</b>",
         "kakao-share": "46593"
@@ -121,7 +121,7 @@ var result = {
         "bad-mate-img": "isfj.jpg",
         "good-mate-link": "./result/INFJ.html",
         "bad-mate-link": "./result/ISFJ.html",
-        "menu-description": "매사에 자기 주장이 분명하고 합리적인 당신! 그런 당신에게 딱 어울리는 메뉴!",
+        "menu-description": "매사에 자기 주장이 분명하고 합리적인 당신!<br>그런 당신에게 딱 어울리는 메뉴!",
         "menu-img": "pasta7.jpg",
         "menu-recommendation": "<b>비프 스테이크 로제 파스타</b>",
         "kakao-share": "46595"
@@ -142,7 +142,7 @@ var result = {
         "bad-mate-img": "istj.jpg",
         "good-mate-link": "./result/INFP.html",
         "bad-mate-link": "./result/ISTJ.html",
-        "menu-description": "모두의 의견을 들어주고 싶은 당신을 위한 호불호 없이 모두가 좋아하는 메뉴! ",
+        "menu-description": "모두의 의견을 들어주고 싶은 당신을 위한<br>호불호 없이 모두가 좋아하는 메뉴! ",
         "menu-img": "v3.jpg",
         "menu-recommendation": "<b>애슐리 버라이어티팩</b>",
         "kakao-share": "46596"
@@ -184,7 +184,7 @@ var result = {
         "bad-mate-img": "infj.jpg",
         "good-mate-link": "./result/ESFJ.html",
         "bad-mate-link": "./result/INFJ.html",
-        "menu-description": "홈 파티에도 원칙이 있고 매뉴얼이 있죠! 파티에서 절대 빠질 수 없는 메뉴로만 구성된 세트 추천!",
+        "menu-description": "홈 파티에도 원칙이 있고 매뉴얼이 있죠!<br>파티에서 절대 빠질 수 없는 메뉴로만 구성된 세트!",
         "menu-img": "set3.jpg",
         "menu-recommendation": "<b>시그니처 그릴 세트</b>",
         "kakao-share": "46598"
@@ -205,7 +205,7 @@ var result = {
         "bad-mate-img": "entp.jpg",
         "good-mate-link": "./result/ESTP.html",
         "bad-mate-link": "./result/ENTP.html",
-        "menu-description": "홈 파티에서 영양 성분까지 고려할 당신에게! 건강을 위한 균형 잡힌 메뉴!",
+        "menu-description": "홈 파티에서 영양 성분까지 고려할 당신에게!<br>건강을 위한 균형 잡힌 메뉴!",
         "menu-img": "v1.jpg",
         "menu-recommendation": "<b>그린팜 버라이어티팩</b>",
         "kakao-share": "46599"
@@ -247,7 +247,7 @@ var result = {
         "bad-mate-img": "entj.jpg",
         "good-mate-link": "./result/ESTJ.html",
         "bad-mate-link": "./result/ENTJ.html",
-        "menu-description": "자신이 인싸인 이유는 모르지만, 자신도 모르게 또 사람들을 감동시키는 메뉴!",
+        "menu-description": "자신이 인싸인 이유는 모르지만,<br>자신도 모르게 또 사람들을 감동시킬 메뉴!",
         "menu-img": "v7.jpg",
         "menu-recommendation": "<b>딸기 버라이어티팩</b>",
         "kakao-share": "46601"
@@ -289,7 +289,7 @@ var result = {
         "bad-mate-img": "esfp.jpg",
         "good-mate-link": "./result/ENFJ.html",
         "bad-mate-link": "./result/ESFP.html",
-        "menu-description": "누구보다 자기 자신을 사랑하는 당신이지만 이번 만큼은 사랑하는 사람과 함께 즐기기를!",
+        "menu-description": "누구보다 자기 자신을 사랑하는 당신이지만<br>이번 만큼은 사랑하는 사람과 함께 즐기기를!",
         "menu-img": "set2.jpg",
         "menu-recommendation": "<b>시그니처 커플 세트</b>",
         "kakao-share": "46603"
@@ -316,7 +316,7 @@ var result = {
         "kakao-share": "46604"
     },
     "INFP": {
-        "shleyz-description": "집 안에서 만나니까 괜찮겠지? KF94 마스크 써야 하나?",
+        "shleyz-description": "집 안에서 만나니까 괜찮겠지?<br>KF94 마스크 써야 하나?",
         "shleyz-type": "과대망상 람찌",
         "mbti-type": "INFP",
         "mbti-explain": "<b>#인간올빼미 #알고보면예민보스 #오픈마인드끝판왕</b><br>다채로운 상상과 걱정이 넘쳐나는 당신! 이 때문인지 주위의 시선을 많이 의식해 만나기 전에도, 만날 때도 항상 신경 쓰이는 게 너무 많아요. 가식적인 것을 싫어하기 때문에 허물없이 친구들에게 진정한 자신의 모습을 보여주려 하고 상대방도 그러길 바라고 있군요! 또한, 자기 전에 자신을 비판하는 말이 자꾸 떠올라 곱씹으며 잠에 쉽게 들지 못하기도 하는 당신, 하지만 최악에서도 긍정적인 면을 바라본다는 것은 숨겨진 장점! 지금 당신은 무슨 상상을 하고 있으신가요?",
