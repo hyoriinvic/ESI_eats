@@ -6,6 +6,7 @@
 /* MBTI 테스트 결과 */
 .shleyz-type {
     color: #fdaf31;
+    font-weight: bolder;
 }
 
 #mbti-type{
