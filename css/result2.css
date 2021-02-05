@@ -22,6 +22,11 @@
     height: 250px;
 }
 
+#info{
+    font-size: 12.5px;
+    color: #A6ABAB;
+}
+
 /* 같은 유형의 사람 % */
 #percentage {
     font-size: 20px;
