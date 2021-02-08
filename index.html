@@ -104,10 +104,11 @@
     <article class="result">
         <h5 id="shleyz-description" class="text-center mt-5">슐리즈 한 문장</h5>
         <h2 class="shleyz-type text-center mt-2"><b>슐리즈 타입</b></h2>
+        <!-- <h5 id="mbti-type" class="text-center mt-2">MBTI 유형</h5> -->
         <img id="result-img" class="mt-2" src="./image/shleyz.png" alt="result-image">
         <img id="skill-img" class="mt-2" src="./image/shleyz.png" alt="skill-image">
         <div class="container-fluid mt-4">
-            <img id="mbti-explain-img" class="img-fluid mx-auto d-block" src="./image/shleyz.png" alt="mbti-explain-img">
+            <img id="mbti-explain-img" class="img-fluid mx-auto d-block" src="./image/shleyz.png" alt="">
         </div>
 
         <div class="container-fluid text-center mt-3" style="height: 80px;">
@@ -201,9 +202,9 @@
 
             $(".shleyz-type").html(result[mbti]["shleyz-type"]);
             $("#shleyz-description").html(result[mbti]["shleyz-description"]);
+            $("#mbti-explain-img").attr("src", "image/"+result[mbti]["mbti-explain-img"]);
             $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
             $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
-            $("#mbti-explain-img").attr("src", "image/"+result[mbti]["mbti-explain-img"]);
             $("#percentage").html(result[mbti]["percentage"]);
             $("#good-mate-card").attr("onclick","location.href='" + result[mbti]["good-mate-link"] + "'");
             $("#bad-mate-card").attr("onclick","location.href='" + result[mbti]["bad-mate-link"] + "'");
