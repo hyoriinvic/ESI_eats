@@ -108,6 +108,7 @@
         <img id="result-img" class="mt-2" src="./image/shleyz.png" alt="result-image">
         <img id="skill-img" class="mt-2" src="./image/shleyz.png" alt="skill-image">
         <div class="container-fluid mt-4">
+            <img id="mbti-explain-img" class="img-fluid mx-auto d-block" src="./image/shleyz.png" alt="mbti-explain-img">
             <!-- <article class="content_wrap" id="synopsis">       
                 <div id="SynopsisDiv" class="SynopsisText mbti-explain">
                     설명
@@ -214,6 +215,7 @@
             $(".mbti-explain").html(result[mbti]["mbti-explain"]);
             $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
             $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
+            $("#mbti-explain-img").attr("src", "image/"+result[mbti]["mbti-explain-img"]);
             $("#percentage").html(result[mbti]["percentage"]);
             $("#good-mate-card").attr("onclick","location.href='" + result[mbti]["good-mate-link"] + "'");
             $("#bad-mate-card").attr("onclick","location.href='" + result[mbti]["bad-mate-link"] + "'");
