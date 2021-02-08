@@ -55,18 +55,10 @@
     <article class="result">
         <h5 id="shleyz-description" class="text-center mt-5">흐음.. 혼자 집에 있기가 그리 어려운가?<br>(이미 나갈 준비 완료)</h5>
         <h2 class="text-center mt-2 shleyz-type"><b>겉바속촉 람찌</b></h2>
-        <!-- <h5 id="mbti-type" class="text-center mt-2">INFJ</h5> -->
         <img id="result-img" class="mt-2" src="./image/infj.jpg" alt="result-image">
         <img id="skill-img" class="mt-2" src="./image/infj-skill.png" alt="skill-image">
         <div class="container-fluid mt-4">
             <img id="mbti-explain-img" class="img-fluid mx-auto d-block" src="./image/infj-explain.png" alt="mbti-explain-img">
-            <!-- <article class="content_wrap" id="synopsis">       
-                <div id="SynopsisDiv" class="SynopsisText mbti-explain">
-                    <b>#잡생각최강자 #츤데레아닌척 #조용한돌+I</b><br>당신은 생각보다 사람에 대한 호불호가 심해 집에서 보내는 시간이 많지만, 친한 친구들과의 만남에서는 누구보다 적극적이에요! 언제나 진솔해 관계를 맺기에 가장 믿음직스러운 유형이죠. 감정 기복이 크지 않은 탓에 친구들은 매번 당신에게 '괜찮아? 재밌어? 진짜지?'라고 되묻지만 사실은 누구보다 찐으로 상황을 즐기고 있답니다! 느끼고 생각하는 것에 비해 표현이 적어 친한 친구들에겐 표현을 많이 하려고 노력하지만 친구들은 잘 알아주지 않아 섭섭하겠어요. 당신은 누가 뭐래도 따뜻한 츤데레입니다!
-                </div>
-                <a href="javascript:showplay();" class="btn_more" id="synopMore">더보기</a>
-                <input name="hidTempSynopsis" type="hidden" id="hidTempSynopsis" value="0">
-            </article> -->
         </div>
 
         <div class="container-fluid text-center mt-3" style="height: 80px;">
@@ -80,7 +72,6 @@
                 <div class="title text-center mt-2"><b>환상의 짝꿍</b></div>
                 <div class="inner" style="height: 250px;">
                     <div id="good-mate" class="type text-center">우렁각시<br>코타</div>
-                    <!-- <div id="good-mate-mbti" class="mate-mbti type text-center">ISFJ</div> -->
                     <img id="good-mate-img" class="rounded mx-auto d-block mt-2" src="./image/isfj.jpg" alt="good-mate-img">
                 </div>
             </div>
@@ -88,7 +79,6 @@
                 <div class="title text-center mt-2"><b>환장의 짝꿍</b></div>
                 <div class="inner" style="height: 250px;">
                     <div id="bad-mate" class="type text-center">의문의 인싸<br>코타</div>
-                    <!-- <div id="bad-mate-mbti" class="mate-mbti type text-center">ISFP</div> -->
                     <img id="bad-mate-img" class="rounded mx-auto d-block mt-2" src="./image/isfp.jpg" alt="bad-mate-img">
                 </div>
             </div>
@@ -128,30 +118,6 @@
         </footer>
     </article>
 
-    <script type="text/javascript" src="./js/result.js"></script>
-    <!-- <script type="text/javascript">
-        function showplay() {
-            var flag = $('#hidTempSynopsis');
-            var SynopsisDiv = $('#SynopsisDiv');
-            var flagValue = flag.val();
-            if (flag != null) {
-                if (flagValue == "0") {
-                    SynopsisDiv.css("font-size", "17.5px");
-                    SynopsisDiv.css("display", "block");
-                    $("#synopMore").text("닫기");
-                    flag.val("1");
-                }
-                else {
-                    SynopsisDiv.css("display", "-webkit-box");
-                    $("#synopMore").text("더보기");
-                    flag.val("0");
-                }
-            }
-            else {
-                alert("[더보기] 추가 정보가 없습니다.");
-            }
-        }
-    </script> -->
     <script type="text/javascript">
         const kakao = () => {
             Kakao.Link.sendCustom({

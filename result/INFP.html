@@ -55,18 +55,10 @@
     <article class="result">
         <h5 id="shleyz-description" class="text-center mt-5">집 안에서 만나니까 괜찮겠지?<br>KF94 마스크 써야 하나?</h5>
         <h2 class="text-center mt-2 shleyz-type"><b>과대망상 람찌</b></h2>
-        <!-- <h5 id="mbti-type" class="text-center mt-2">INFP</h5> -->
         <img id="result-img" class="mt-2" src="./image/infp.jpg" alt="result-image">
         <img id="skill-img" class="mt-2" src="./image/infp-skill.png" alt="skill-image">
         <div class="container-fluid mt-4">
             <img id="mbti-explain-img" class="img-fluid mx-auto d-block" src="./image/infp-explain.png" alt="mbti-explain-img">
-            <!-- <article class="content_wrap" id="synopsis">       
-                <div id="SynopsisDiv" class="SynopsisText mbti-explain">
-                    <b>#인간올빼미 #알고보면예민보스 #오픈마인드끝판왕</b><br>다채로운 상상과 걱정이 넘쳐나는 당신! 이 때문인지 주위의 시선을 많이 의식해 만나기 전에도, 만날 때도 항상 신경 쓰이는 게 너무 많아요. 가식적인 것을 싫어하기 때문에 허물없이 친구들에게 진정한 자신의 모습을 보여주려 하고 상대방도 그러길 바라고 있군요! 또한, 자기 전에 자신을 비판하는 말이 자꾸 떠올라 곱씹으며 잠에 쉽게 들지 못하기도 하는 당신, 하지만 최악에서도 긍정적인 면을 바라본다는 것은 숨겨진 장점! 지금 당신은 무슨 상상을 하고 있으신가요?
-                </div>
-                <a href="javascript:showplay();" class="btn_more" id="synopMore">더보기</a>
-                <input name="hidTempSynopsis" type="hidden" id="hidTempSynopsis" value="0">
-            </article> -->
         </div>
 
         <div class="container-fluid text-center mt-3" style="height: 80px;">
@@ -80,7 +72,6 @@
                 <div class="title text-center mt-2"><b>환상의 짝꿍</b></div>
                 <div class="inner" style="height: 250px;">
                     <div id="good-mate" class="type text-center">자기애 폭발<br>람찌</div>
-                    <!-- <div id="good-mate-mbti" class="mate-mbti type text-center">INTP</div> -->
                     <img id="good-mate-img" class="rounded mx-auto d-block mt-2" src="./image/intp.jpg" alt="good-mate-img">
                 </div>
             </div>
@@ -88,7 +79,6 @@
                 <div class="title text-center mt-2"><b>환장의 짝꿍</b></div>
                 <div class="inner" style="height: 250px;">
                     <div id="bad-mate" class="type text-center">관리 감독<br>베리빗</div>
-                    <!-- <div id="bad-mate-mbti" class="mate-mbti type text-center">ESTJ</div> -->
                     <img id="bad-mate-img" class="rounded mx-auto d-block mt-2" src="./image/estj.jpg" alt="bad-mate-img">
                 </div>
             </div>
@@ -128,30 +118,6 @@
         </footer>
     </article>
 
-    <script type="text/javascript" src="./js/result.js"></script>
-    <!-- <script type="text/javascript">
-        function showplay() {
-            var flag = $('#hidTempSynopsis');
-            var SynopsisDiv = $('#SynopsisDiv');
-            var flagValue = flag.val();
-            if (flag != null) {
-                if (flagValue == "0") {
-                    SynopsisDiv.css("font-size", "17.5px");
-                    SynopsisDiv.css("display", "block");
-                    $("#synopMore").text("닫기");
-                    flag.val("1");
-                }
-                else {
-                    SynopsisDiv.css("display", "-webkit-box");
-                    $("#synopMore").text("더보기");
-                    flag.val("0");
-                }
-            }
-            else {
-                alert("[더보기] 추가 정보가 없습니다.");
-            }
-        }
-    </script> -->
     <script type="text/javascript">
         const kakao = () => {
             Kakao.Link.sendCustom({

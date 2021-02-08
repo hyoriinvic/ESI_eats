@@ -55,18 +55,10 @@
     <article class="result">
         <h5 id="shleyz-description" class="text-center mt-5">방역수칙 지키면서 홈 파티 끝! 이제 집 가야지. </h5>
         <h2 class="text-center mt-2 shleyz-type"><b>의문의 인싸 코타</b></h2>
-        <!-- <h5 id="mbti-type" class="text-center mt-2">ISFP</h5> -->
         <img id="result-img" class="mt-2" src="./image/isfp.jpg" alt="result-image">
         <img id="skill-img" class="mt-2" src="./image/isfp-skill.png" alt="skill-image">
         <div class="container-fluid mt-4">
             <img id="mbti-explain-img" class="img-fluid mx-auto d-block" src="./image/isfp-explain.png" alt="mbti-explain-img">
-            <!-- <article class="content_wrap" id="synopsis">       
-                <div id="SynopsisDiv" class="SynopsisText mbti-explain">
-                    <b>#마더혜레사 #평화주의자개복치 #마음만은압구정날라리</b><br>겉보기엔 조용하고 착한 아싸지만 친구들과 함께하면 180도 변하는 숨겨진 인싸! 특유의 유머 감각으로 주위에 항상 사람이 끊이질 않아요. 또한, 자신의 의견을 타인에게 강요하지 않으며, 의견 충돌을 싫어해요. 남들이 볼 때는 포용력이 넓은 것처럼 보이지만, 사실 자신의 의견을 명확하게 관철시키지 않는 것일 뿐! 개인주의적인 성향도 강해 홈 파티를 하더라도 집은 꼭 가야 돼요! 하지만 그렇다고 만남이 재미없는 건 또 아니지만 종종 오해를 사기도 하죠. 알면 알수록 진국인 당신은 홈 파티에 없어서는 안 될 우리들만의 스타죠! ᕕ( ᐛ )ᕗ 
-                </div>
-                <a href="javascript:showplay();" class="btn_more" id="synopMore">더보기</a>
-                <input name="hidTempSynopsis" type="hidden" id="hidTempSynopsis" value="0">
-            </article> -->
         </div>
 
         <div class="container-fluid text-center mt-3" style="height: 80px;">
@@ -80,7 +72,6 @@
                 <div class="title text-center mt-2"><b>환상의 짝꿍</b></div>
                 <div class="inner" style="height: 250px;">
                     <div id="good-mate" class="type text-center">관리 감독<br>베리빗</div>
-                    <!-- <div id="good-mate-mbti" class="mate-mbti type text-center">ESTJ</div> -->
                     <img id="good-mate-img" class="rounded mx-auto d-block mt-2" src="./image/estj.jpg" alt="good-mate-img">
                 </div>
             </div>
@@ -88,7 +79,6 @@
                 <div class="title text-center mt-2"><b>환장의 짝꿍</b></div>
                 <div class="inner" style="height: 250px;">
                     <div id="bad-mate" class="type text-center">앵그리<br>오몽새</div>
-                    <!-- <div id="bad-mate-mbti" class="mate-mbti type text-center">ENTJ</div> -->
                     <img id="bad-mate-img" class="rounded mx-auto d-block mt-2" src="./image/entj.jpg" alt="bad-mate-img">
                 </div>
             </div>
@@ -128,30 +118,6 @@
         </footer>
     </article>
 
-    <script type="text/javascript" src="./js/result.js"></script>
-    <!-- <script type="text/javascript">
-        function showplay() {
-            var flag = $('#hidTempSynopsis');
-            var SynopsisDiv = $('#SynopsisDiv');
-            var flagValue = flag.val();
-            if (flag != null) {
-                if (flagValue == "0") {
-                    SynopsisDiv.css("font-size", "17.5px");
-                    SynopsisDiv.css("display", "block");
-                    $("#synopMore").text("닫기");
-                    flag.val("1");
-                }
-                else {
-                    SynopsisDiv.css("display", "-webkit-box");
-                    $("#synopMore").text("더보기");
-                    flag.val("0");
-                }
-            }
-            else {
-                alert("[더보기] 추가 정보가 없습니다.");
-            }
-        }
-    </script> -->
     <script type="text/javascript">
         const kakao = () => {
             Kakao.Link.sendCustom({

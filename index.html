@@ -104,18 +104,10 @@
     <article class="result">
         <h5 id="shleyz-description" class="text-center mt-5">슐리즈 한 문장</h5>
         <h2 class="shleyz-type text-center mt-2"><b>슐리즈 타입</b></h2>
-        <!-- <h5 id="mbti-type" class="text-center mt-2">MBTI 유형</h5> -->
         <img id="result-img" class="mt-2" src="./image/shleyz.png" alt="result-image">
         <img id="skill-img" class="mt-2" src="./image/shleyz.png" alt="skill-image">
         <div class="container-fluid mt-4">
             <img id="mbti-explain-img" class="img-fluid mx-auto d-block" src="./image/shleyz.png" alt="mbti-explain-img">
-            <!-- <article class="content_wrap" id="synopsis">       
-                <div id="SynopsisDiv" class="SynopsisText mbti-explain">
-                    설명
-                </div>
-                <a href="javascript:showplay();" class="btn_more" id="synopMore">더보기</a>
-                <input name="hidTempSynopsis" type="hidden" id="hidTempSynopsis" value="0">
-            </article> -->
         </div>
 
         <div class="container-fluid text-center mt-3" style="height: 80px;">
@@ -129,7 +121,6 @@
                 <div class="title text-center mt-2"><b>환상의 짝꿍</b></div>
                 <div class="inner" style="height: 250px;">
                     <div id="good-mate" class="type text-center">환상의 짝꿍</div>
-                    <!-- <div id="good-mate-mbti" class="mate-mbti type text-center">환상의 MBTI</div> -->
                     <img id="good-mate-img" class="mx-auto d-block mt-2" src="./image/shleyz.png" alt="good-mate-img">
                 </div>
             </div>
@@ -137,7 +128,6 @@
                 <div class="title text-center mt-2"><b>환장의 짝꿍</b></div>
                 <div class="inner" style="height: 250px;">
                     <div id="bad-mate" class="type text-center">환장의 짝꿍</div>
-                    <!-- <div id="bad-mate-mbti" class="mate-mbti type text-center">환장의 MBTI</div> -->
                     <img id="bad-mate-img" class="mx-auto d-block mt-2" src="./image/shleyz.png" alt="bad-mate-img">
                 </div>
             </div>
@@ -211,16 +201,12 @@
 
             $(".shleyz-type").html(result[mbti]["shleyz-type"]);
             $("#shleyz-description").html(result[mbti]["shleyz-description"]);
-            // $("#mbti-type").html(result[mbti]["mbti-type"]);
-            $(".mbti-explain").html(result[mbti]["mbti-explain"]);
             $("#result-img").attr("src", "image/"+result[mbti]["result-image"]);
             $("#skill-img").attr("src", "image/"+result[mbti]["skill-img"]);
             $("#mbti-explain-img").attr("src", "image/"+result[mbti]["mbti-explain-img"]);
             $("#percentage").html(result[mbti]["percentage"]);
             $("#good-mate-card").attr("onclick","location.href='" + result[mbti]["good-mate-link"] + "'");
             $("#bad-mate-card").attr("onclick","location.href='" + result[mbti]["bad-mate-link"] + "'");
-            // $("#good-mate-mbti").html(result[mbti]["good-mate-mbti"]);
-            // $("#bad-mate-mbti").html(result[mbti]["bad-mate-mbti"]);
             $("#good-mate").html(result[mbti]["good-mate"]);
             $("#bad-mate").html(result[mbti]["bad-mate"]);
             $("#good-mate-img").attr("src", "image/"+result[mbti]["good-mate-img"]);
@@ -274,30 +260,6 @@
             }
         }
     </script>
-    <!-- <script type="text/javascript">
-        function showplay() {
-            var flag = $('#hidTempSynopsis');
-            var SynopsisDiv = $('#SynopsisDiv');
-            var flagValue = flag.val();
-
-            if (flag != null) {
-                if (flagValue == "0") {
-                    SynopsisDiv.css("font-size", "17.5px");
-                    SynopsisDiv.css("display", "block");
-                    $("#synopMore").text("닫기");
-                    flag.val("1");
-                }
-                else {
-                    SynopsisDiv.css("display", "-webkit-box");
-                    $("#synopMore").text("더보기");
-                    flag.val("0");
-                }
-            }
-            else {
-                alert("[더보기] 추가 정보가 없습니다.");
-            }
-        }
-    </script> -->
     <script type="text/javascript">
         const kakao = () => {
             var mbti = "";

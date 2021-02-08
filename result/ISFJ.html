@@ -55,18 +55,10 @@
     <article class="result">
         <h5 id="shleyz-description" class="text-center mt-5">도와줄까? 내가 청소할까? 주문은? 뒷정리는?</h5>
         <h2 class="text-center mt-2 shleyz-type"><b>우렁각시 코타</b></h2>
-        <!-- <h5 id="mbti-type" class="text-center mt-2">ISFJ</h5> -->
         <img id="result-img" class="mt-2" src="./image/isfj.jpg" alt="result-image">
         <img id="skill-img" class="mt-2" src="./image/isfj-skill.png" alt="skill-image">
         <div class="container-fluid mt-4">
             <img id="mbti-explain-img" class="img-fluid mx-auto d-block" src="./image/isfj-explain.png" alt="mbti-explain-img">
-            <!-- <article class="content_wrap" id="synopsis">       
-                <div id="SynopsisDiv" class="SynopsisText mbti-explain">
-                    <b>#둥글게둥글게 #별명이없는게특징 #성실함빼면시체</b><br>당신은 친구들의 감정을 잘 이해하는 최고의 서포터! 인간관계에 민감하고 모두와 협력하길 원하는 당신, 홈 파티에서도 많은 일을 도맡으려고 하네요. 모두와 잘 지내는 것 같지만, 철저할 땐 또 철저한 게 당신의 매력. 돈, 시간, 감정 등을 쓸모 없이 낭비하는 것을 제일 싫어해요! 즉, 우렁각시라고 해서 만만한 사람이 되었다는 건 아니에요. 그만큼 내가 소중하게 생각하는 사람들을 더욱 진심으로 챙긴다는 뜻이죠! 사랑하는 사람들에게는 간, 쓸개까지 내줄 당신! 가끔은 자신을 위한 느긋한 여유를 가져보는 것은 어떨까요?
-                </div>
-                <a href="javascript:showplay();" class="btn_more" id="synopMore">더보기</a>
-                <input name="hidTempSynopsis" type="hidden" id="hidTempSynopsis" value="0">
-            </article> -->
         </div>
 
         <div class="container-fluid text-center mt-3" style="height: 80px;">
@@ -80,7 +72,6 @@
                 <div class="title text-center mt-2"><b>환상의 짝꿍</b></div>
                 <div class="inner" style="height: 250px;">
                     <div id="good-mate" class="type text-center">연예인<br>베리빗</div>
-                    <!-- <div id="good-mate-mbti" class="mate-mbti type text-center">ESFP</div> -->
                     <img id="good-mate-img" class="rounded mx-auto d-block mt-2" src="./image/esfp.jpg" alt="good-mate-img">
                 </div>
             </div>
@@ -88,7 +79,6 @@
                 <div class="title text-center mt-2"><b>환장의 짝꿍</b></div>
                 <div class="inner" style="height: 250px;">
                     <div id="bad-mate" class="type text-center">긍정왕<br>오몽새</div>
-                    <!-- <div id="bad-mate-mbti" class="mate-mbti type text-center">ENFP</div> -->
                     <img id="bad-mate-img" class="rounded mx-auto d-block mt-2" src="./image/enfp.jpg" alt="bad-mate-img">
                 </div>
             </div>
@@ -129,30 +119,6 @@
         </footer>
     </article>
 
-    <script type="text/javascript" src="./js/result.js"></script>
-    <!-- <script type="text/javascript">
-        function showplay() {
-            var flag = $('#hidTempSynopsis');
-            var SynopsisDiv = $('#SynopsisDiv');
-            var flagValue = flag.val();
-            if (flag != null) {
-                if (flagValue == "0") {
-                    SynopsisDiv.css("font-size", "17.5px");
-                    SynopsisDiv.css("display", "block");
-                    $("#synopMore").text("닫기");
-                    flag.val("1");
-                }
-                else {
-                    SynopsisDiv.css("display", "-webkit-box");
-                    $("#synopMore").text("더보기");
-                    flag.val("0");
-                }
-            }
-            else {
-                alert("[더보기] 추가 정보가 없습니다.");
-            }
-        }
-    </script> -->
     <script type="text/javascript">
         const kakao = () => {
             Kakao.Link.sendCustom({
