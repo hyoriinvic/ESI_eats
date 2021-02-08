@@ -9,9 +9,9 @@
     font-weight: bolder;
 }
 
-#mbti-type{
+/* #mbti-type{
     color: #A6ABAB;
-}
+} */
 
 /* 결과창에 들어가는 유형별 이미지 */
 #result-img {
@@ -26,7 +26,7 @@
     margin: 0 auto;
 }
 
-/* 유형 세부 설명 및 더보기 관련 설정 */
+/* 유형 세부 설명 및 더보기 관련 설정
 .content_wrap {
     clear:both; 
     display:block; 
@@ -61,4 +61,4 @@
 
 #synopMore{
     color: #fdaf31;
-}
+} */

@@ -3,9 +3,9 @@
     color: #fdaf31;
 }
 
-#mbti-type{
+/* #mbti-type{
     color: #A6ABAB;
-}
+} */
 
 /* 결과창에 들어가는 유형별 이미지 */
 #result-img {
@@ -21,7 +21,7 @@
 }
 
 /* 유형 세부 설명 및 더보기 관련 설정 */
-.content_wrap {
+/* .content_wrap {
     clear:both; 
     display:block; 
     overflow:hidden; 
@@ -55,4 +55,4 @@
 
 #synopMore{
     color: #fdaf31;
-}
+} */
