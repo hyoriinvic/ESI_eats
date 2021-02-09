@@ -7,6 +7,10 @@
     color: #A6ABAB;
 } */
 
+#mbti-explain-img {
+    margin: 0 auto;
+}
+
 /* 결과창에 들어가는 유형별 이미지 */
 #result-img {
     width: 225px;
