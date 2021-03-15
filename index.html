@@ -277,15 +277,6 @@
         }
     </script>
     <script>
-         // get Full Today
-        let today = new Date();
-        let month = String(today.getMonth() + 1)//.padStart(2, '0');
-        let date = String(today.getDate()).padStart(2, '0');
-        let hour = String(today.getHours()).padStart(2, '0');
-        let minute = String(today.getMinutes()).padStart(2, '0');
-
-        var participants = (Number(month+date+hour+minute) - 2066000).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-        $(".test-participants").html("지금까지 총 " + participants +"명이 참여했어요!!");
 
     </script>
 </body>
